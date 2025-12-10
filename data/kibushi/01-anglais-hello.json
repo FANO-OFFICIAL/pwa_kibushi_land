@@ -1,0 +1,226 @@
+{
+    "titre": "Bonjour",
+    "phrases": [
+        {
+            "francais": "Salut!",
+            "anglais": "Hi!",
+            "kibushi": "Akori?",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Bonjour.",
+            "anglais": "Good morning",
+            "kibushi": "Akori marandreni ?",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Bon après-midi",
+            "anglais": "Good afternoon",
+            "kibushi": "Akori hariva ?",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Bonjour.",
+            "anglais": "Hello.",
+            "kibushi": "Akori marandreni ?",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Bonsoir.",
+            "anglais": "Good evening.",
+            "kibushi": "Akori matuŋali?",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Bonne nuit.",
+            "anglais": "Good night.",
+            "kibushi": "Tsara mandri!",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Je m’appelle Jean.",
+            "anglais": "My name is Jean.",
+            "kibushi": "Zahu kahindreu Jean.",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Enchanté (men)/Enchantée (women).",
+            "anglais": "Pleased to meet you.",
+            "kibushi": "Za ravuravu mahita anau.",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "Au revoir.",
+            "anglais": "Goodbye.",
+            "kibushi": "Veluma!"
+        },
+        {
+            "francais": "A bientôt.",
+            "anglais": "See you soon.",
+            "kibushi": "Zuva hafa kua !"
+        },
+        {
+            "francais": "A demain.",
+            "anglais": "See you tomorrow.",
+            "kibushi": "Amareyi kua !"
+        },
+        {
+            "francais": "Merci (beaucoup).",
+            "anglais": "Thank you (very much).",
+            "kibushi": "Misotra (be)."
+        }
+    ],
+  "dialogues": [
+    {
+      "titre": "Présentation",
+      "audio": {
+        "francais": "assets/audio/dialogue_presentation_fr.mp3",
+        "anglais": "assets/audio/dialogue_presentation_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Céline",
+          "francais": "Bonjour. Je m'appelle Céline Legrand.",
+          "anglais": "Hello. My name is Céline Legrand.",
+          "kibushi": "Salama, Zahu kahindreu Céline Legrand."
+        },
+        {
+          "personnage": "Monsieur Rossi",
+          "francais": "Bonjour madame. Monsieur Rossi, enchanté.",
+          "anglais": "Hello (madam). Mr. Rossi, pleased to meet you.",
+          "kibushi": "Salama viavi. Mr. Rossi, za ravuravu mahita anau."
+        },
+        {
+          "personnage": "Céline",
+          "francais": "Enchantée.",
+          "anglais": "Pleased to meet you.",
+          "kibushi": "Za ravuravu kua."
+        }
+      ]
+    },
+    {
+      "titre": "Se saluer et se présenter",
+      "audio": {
+        "francais": "assets/audio/dialogue_salutations_fr.mp3",
+        "anglais": "assets/audio/dialogue_salutations_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Martine",
+          "francais": "Bonjour monsieur.",
+          "anglais": "Hello, sir.",
+          "kibushi": "Salama, lahi."
+        },
+        {
+          "personnage": "Marc",
+          "francais": "Bonjour mademoiselle.",
+          "anglais": "Hello, mademoiselle.",
+          "kibushi": "Salama, tseki viavi."
+        },
+        {
+          "personnage": "Martine",
+          "francais": "Je m'appelle Martine.",
+          "anglais": "My name is Martine.",
+          "kibushi": "Zahu kahindreu Martine."
+        },
+        {
+          "personnage": "Marc",
+          "francais": "Enchanté",
+          "anglais": "Pleased to meet you.",
+          "kibushi": "Za ravuravu mahita anau."
+        }
+      ]
+    },
+    {
+      "titre": "Au revoir",
+      "audio": {
+        "francais": "assets/audio/dialogue_au_revoir_fr.mp3",
+        "anglais": "assets/audio/dialogue_au_revoir_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Pierre",
+          "francais": "Alors, à demain?",
+          "anglais": "So, see you tomorrow?",
+          "kibushi": "Amareyi kua !"
+        },
+        {
+          "personnage": "Marie",
+          "francais": "Oui, au revoir.",
+          "anglais": "Yes, goodbye.",
+          "kibushi": "Veluma !"
+        },
+        {
+          "personnage": "Pierre",
+          "francais": "Au revoir. A bientôt.",
+          "anglais": "Goodbye. See you soon.",
+          "kibushi": "Veluma. Zuva hafa kua!"
+        }
+      ]
+    }
+  ],
+  "vocabulaire": [
+    {
+      "kibushi": "lahi",
+      "francais": "monsieur",
+      "anglais": "sir",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "viavi",
+      "francais": "madame",
+      "anglais": "madam",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "tseki viavi",
+      "francais": "mademoiselle",
+      "anglais": "miss",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+    "titre": "Les jours et les mois",
+    "phrases": [
+        {
+            "francais": "Le Nouvel An chinois est en février.",
+            "anglais": "Chinese New Year is in February.",
+            "kibushi": null
+        },
+        {
+            "francais": "Le Ramadan est le mois du jeûne.",
+            "anglais": "Ramadan is the month of fasting.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je travaille le vendredi.",
+            "anglais": "I work on Fridays.",
+            "kibushi": null
+        },
+        {
+            "francais": "On se voit demain.",
+            "anglais": "We meet tomorrow.",
+            "kibushi": null
+        },
+        {
+            "francais": "J'ai une réservation pour aujourd'hui.",
+            "anglais": "I have a reservation for today.",
+            "kibushi": null
+        },
+        {
+            "francais": "Notre anniversaire est en juillet.",
+            "anglais": "Our anniversary is in July.",
+            "kibushi": null
+        },
+        {
+            "francais": "Demain, c’est lundi.",
+            "anglais": "Tomorrow is Monday.",
+            "kibushi": null
+        },
+        {
+            "francais": "La réunion n’est pas mardi.",
+            "anglais": "The meeting isn’t on Tuesday.",
+            "kibushi": null
+        },
+        {
+            "francais": "La réunion est mardi.",
+            "anglais": "The meeting is on Tuesday.",
+            "kibushi": null
+        },
+        {
+            "francais": "Pâques est en avril.",
+            "anglais": "Easter is in April.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je travaille le dimanche.",
+            "anglais": "I work on Sundays.",
+            "kibushi": null
+        },
+        {
+            "francais": "Notre anniversaire de mariage est en juillet.",
+            "anglais": "Our wedding anniversary is in July.",
+            "kibushi": null
+        },
+        {
+            "francais": "Noël est en décembre.",
+            "anglais": "Christmas is in December.",
+            "kibushi": null
+        },
+        {
+            "francais": "Mes enfants sont en vacances en août.",
+            "anglais": "My children are on vacation in August.",
+            "kibushi": null
+        },
+        {
+            "francais": "Mon anniversaire est en juin.",
+            "anglais": "My birthday is in June.",
+            "kibushi": null
+        }
+    ],
+  "vocabulaire": [
+    {
+      "kibushi": "",
+      "francais": "Semaine",
+      "anglais": "week",
+      "audio": {
+        "francais": "assets/audio/vocab_week_fr.mp3",
+        "anglais": "assets/audio/vocab_week_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Lundi",
+      "anglais": "on Monday",
+      "audio": {
+        "francais": "assets/audio/vocab_monday_fr.mp3",
+        "anglais": "assets/audio/vocab_monday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Week-end",
+      "anglais": "weekend",
+      "audio": {
+        "francais": "assets/audio/vocab_weekend_fr.mp3",
+        "anglais": "assets/audio/vocab_weekend_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les jours de semaine",
+      "anglais": "the days of the week",
+      "audio": {
+        "francais": "assets/audio/vocab_days_of_week_fr.mp3",
+        "anglais": "assets/audio/vocab_days_of_week_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les mois",
+      "anglais": "months",
+      "audio": {
+        "francais": "assets/audio/vocab_months_fr.mp3",
+        "anglais": "assets/audio/vocab_months_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "en avril",
+      "anglais": "in April",
+      "audio": {
+        "francais": "assets/audio/vocab_in_april_fr.mp3",
+        "anglais": "assets/audio/vocab_in_april_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "lundi",
+      "anglais": "Monday",
+      "audio": {
+        "francais": "assets/audio/vocab_monday_fr.mp3",
+        "anglais": "assets/audio/vocab_monday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "mardi",
+      "anglais": "Tuesday",
+      "audio": {
+        "francais": "assets/audio/vocab_tuesday_fr.mp3",
+        "anglais": "assets/audio/vocab_tuesday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "mercredi",
+      "anglais": "Wednesday",
+      "audio": {
+        "francais": "assets/audio/vocab_wednesday_fr.mp3",
+        "anglais": "assets/audio/vocab_wednesday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "jeudi",
+      "anglais": "Thursday",
+      "audio": {
+        "francais": "assets/audio/vocab_thursday_fr.mp3",
+        "anglais": "assets/audio/vocab_thursday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "vendredi",
+      "anglais": "Friday",
+      "audio": {
+        "francais": "assets/audio/vocab_friday_fr.mp3",
+        "anglais": "assets/audio/vocab_friday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "samedi",
+      "anglais": "Saturday",
+      "audio": {
+        "francais": "assets/audio/vocab_saturday_fr.mp3",
+        "anglais": "assets/audio/vocab_saturday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "dimanche",
+      "anglais": "Sunday",
+      "audio": {
+        "francais": "assets/audio/vocab_sunday_fr.mp3",
+        "anglais": "assets/audio/vocab_sunday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "aujourd’hui",
+      "anglais": "today",
+      "audio": {
+        "francais": "assets/audio/vocab_today_fr.mp3",
+        "anglais": "assets/audio/vocab_today_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "demain",
+      "anglais": "tomorrow",
+      "audio": {
+        "francais": "assets/audio/vocab_tomorrow_fr.mp3",
+        "anglais": "assets/audio/vocab_tomorrow_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "hier",
+      "anglais": "yesterday",
+      "audio": {
+        "francais": "assets/audio/vocab_yesterday_fr.mp3",
+        "anglais": "assets/audio/vocab_yesterday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "janvier",
+      "anglais": "January",
+      "audio": {
+        "francais": "assets/audio/vocab_january_fr.mp3",
+        "anglais": "assets/audio/vocab_january_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "février",
+      "anglais": "February",
+      "audio": {
+        "francais": "assets/audio/vocab_february_fr.mp3",
+        "anglais": "assets/audio/vocab_february_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "mars",
+      "anglais": "March",
+      "audio": {
+        "francais": "assets/audio/vocab_march_fr.mp3",
+        "anglais": "assets/audio/vocab_march_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "avril",
+      "anglais": "April",
+      "audio": {
+        "francais": "assets/audio/vocab_april_fr.mp3",
+        "anglais": "assets/audio/vocab_april_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "mai",
+      "anglais": "May",
+      "audio": {
+        "francais": "assets/audio/vocab_may_fr.mp3",
+        "anglais": "assets/audio/vocab_may_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "juin",
+      "anglais": "June",
+      "audio": {
+        "francais": "assets/audio/vocab_june_fr.mp3",
+        "anglais": "assets/audio/vocab_june_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "juillet",
+      "anglais": "July",
+      "audio": {
+        "francais": "assets/audio/vocab_july_fr.mp3",
+        "anglais": "assets/audio/vocab_july_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "août",
+      "anglais": "August",
+      "audio": {
+        "francais": "assets/audio/vocab_august_fr.mp3",
+        "anglais": "assets/audio/vocab_august_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "septembre",
+      "anglais": "September",
+      "audio": {
+        "francais": "assets/audio/vocab_september_fr.mp3",
+        "anglais": "assets/audio/vocab_september_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "octobre",
+      "anglais": "October",
+      "audio": {
+        "francais": "assets/audio/vocab_october_fr.mp3",
+        "anglais": "assets/audio/vocab_october_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "novembre",
+      "anglais": "November",
+      "audio": {
+        "francais": "assets/audio/vocab_november_fr.mp3",
+        "anglais": "assets/audio/vocab_november_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "décembre",
+      "anglais": "December",
+      "audio": {
+        "francais": "assets/audio/vocab_december_fr.mp3",
+        "anglais": "assets/audio/vocab_december_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le mois",
+      "anglais": "month",
+      "audio": {
+        "francais": "assets/audio/vocab_month_fr.mp3",
+        "anglais": "assets/audio/vocab_month_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "l’an",
+      "anglais": "year",
+      "audio": {
+        "francais": "assets/audio/vocab_year_fr.mp3",
+        "anglais": "assets/audio/vocab_year_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

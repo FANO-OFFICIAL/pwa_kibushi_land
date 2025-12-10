@@ -1,0 +1,200 @@
+{
+    "titre": "Les Rendez-vous",
+    "phrases": [
+        {
+      "kibushi": "",
+      "francais": "Bienvenue.",
+      "anglais": "Welcome.",
+      "audio": {
+        "francais": "assets/audio/phrases_bienvenue_fr.mp3",
+        "anglais": "assets/audio/phrases_bienvenue_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Prenons rendez-vous pour demain.",
+      "anglais": "Let's meet tomorrow.",
+      "audio": {
+        "francais": "assets/audio/phrases_meet_tomorrow_fr.mp3",
+        "anglais": "assets/audio/phrases_meet_tomorrow_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Avec qui?",
+      "anglais": "With whom?",
+      "audio": {
+        "francais": "assets/audio/phrases_with_whom_fr.mp3",
+        "anglais": "assets/audio/phrases_with_whom_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Quand êtes-vous libre?",
+      "anglais": "When are you free?",
+      "audio": {
+        "francais": "assets/audio/phrases_when_free_fr.mp3",
+        "anglais": "assets/audio/phrases_when_free_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Je suis désolé(e), je suis occupé(e).",
+      "anglais": "I'm sorry, I'm busy.",
+      "audio": {
+        "francais": "assets/audio/phrases_busy_fr.mp3",
+        "anglais": "assets/audio/phrases_busy_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Pourquoi pas jeudi?",
+      "anglais": "How about Thursday?",
+      "audio": {
+        "francais": "assets/audio/phrases_thursday_fr.mp3",
+        "anglais": "assets/audio/phrases_thursday_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "C'est bon pour moi.",
+      "anglais": "That's good for me.",
+      "audio": {
+        "francais": "assets/audio/phrases_good_for_me_fr.mp3",
+        "anglais": "assets/audio/phrases_good_for_me_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Pouvons-nous nous rencontrer demain?",
+      "anglais": "Can we meet tomorrow?",
+      "audio": {
+        "francais": "assets/audio/phrases_can_meet_tomorrow_fr.mp3",
+        "anglais": "assets/audio/phrases_can_meet_tomorrow_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Devons-nous nous rencontrer demain?",
+      "anglais": "Shall we meet tomorrow?",
+      "audio": {
+        "francais": "assets/audio/phrases_shall_meet_tomorrow_fr.mp3",
+        "anglais": "assets/audio/phrases_shall_meet_tomorrow_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+    ],
+  "dialogues": [
+    {
+  "titre": "Rendez-vous",
+  "audio": {
+    "francais": "assets/audio/dialogue_rendezvous_fr.mp3",
+    "anglais": "assets/audio/dialogue_rendezvous_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Bonjour. J’ai rendez-vous.",
+      "anglais": "Hello. I have an appointment.",
+      "kibushi": "Salama. Za misi rendez-vous."
+    },
+    {
+      "personnage": "Secrétaire",
+      "francais": "Avec qui?",
+      "anglais": "With whom?",
+      "kibushi": "Inu viavi?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Avec Monsieur Le Blanc.",
+      "anglais": "With Mr. Le Blanc.",
+      "kibushi": "Inu M. Le Blanc."
+    },
+    {
+      "personnage": "Secrétaire",
+      "francais": "Très bien. A quelle heure?",
+      "anglais": "Okay. What time?",
+      "kibushi": "Ewa. Amini ora ti?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "A trois heures, mais je suis un peu en retard.",
+      "anglais": "At three o’clock, but I’m a little late.",
+      "kibushi": "A ora telo, azafadi za misi kely tara."
+    },
+    {
+      "personnage": "Secrétaire",
+      "francais": "Ne vous inquiétez pas. Asseyez-vous, je vous en prie.",
+      "anglais": "Don’t worry. Sit down, please.",
+      "kibushi": "Tsi mala. Za mipetraka, azafadi."
+    }
+  ]
+},
+{
+  "titre": "Rendez-vous jeudi",
+  "audio": {
+    "francais": "assets/audio/dialogue_rdv_jeudi_fr.mp3",
+    "anglais": "assets/audio/dialogue_rdv_jeudi_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Personne A",
+      "francais": "Prenons rendez-vous pour jeudi.",
+      "anglais": "Let's meet on Thursday.",
+      "kibushi": "Za mila rendez-vous a Alakamisy."
+    },
+    {
+      "personnage": "Personne B",
+      "francais": "Je suis désolé, je suis occupé.",
+      "anglais": "Sorry, I'm busy.",
+      "kibushi": "Za mahatsiravina, za misi occupé."
+    },
+    {
+      "personnage": "Personne A",
+      "francais": "Quand êtes-vous libre?",
+      "anglais": "When are you free?",
+      "kibushi": "Inu ora ti anau malalaka?"
+    },
+    {
+      "personnage": "Personne B",
+      "francais": "Mardi après-midi.",
+      "anglais": "Tuesday afternoon.",
+      "kibushi": "Talata aorinan'ny mitataoandro."
+    },
+    {
+      "personnage": "Personne A",
+      "francais": "C’est bon pour moi.",
+      "anglais": "That's good for me.",
+      "kibushi": "Za misi tsara."
+    },
+    {
+      "personnage": "Personne A",
+      "francais": "A quelle heure?",
+      "anglais": "What time?",
+      "kibushi": "Inu ora ti?"
+    },
+    {
+      "personnage": "Personne B",
+      "francais": "A quatre heures, si c’est bon pour vous.",
+      "anglais": "At four o’clock, if that’s good for you.",
+      "kibushi": "A ora efatra, raha tsara aminau."
+    },
+    {
+      "personnage": "Personne A",
+      "francais": "C’est bon pour moi.",
+      "anglais": "It's good for me.",
+      "kibushi": "Za misi tsara."
+    }
+  ]
+}
+
+  ]
+}

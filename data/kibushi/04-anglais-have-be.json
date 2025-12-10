@@ -1,0 +1,65 @@
+{
+    "titre": "Avoir et être",
+    "phrases": [
+        {
+      "francais": "Je suis anglaise.",
+      "anglais": "I’m English.",
+      "kibushi": "Za kahindreu anglaise."
+    },
+    {
+      "francais": "Je suis fatigué(e).",
+      "anglais": "I’m tired.",
+      "kibushi": "Za misi fatigui."
+    },
+    {
+      "francais": "Elle est heureuse?",
+      "anglais": "Is she happy?",
+      "kibushi": "Za viavi felici ?"
+    },
+    {
+      "francais": "Nous sommes français.",
+      "anglais": "We’re French.",
+      "kibushi": "Za kahindreu français."
+    },
+    {
+      "francais": "Il a deux baguettes.",
+      "anglais": "He has two baguettes.",
+      "kibushi": "Za misi baguette aroyi."
+    },
+    {
+      "francais": "Il a un rendez-vous.",
+      "anglais": "He has a meeting.",
+      "kibushi": "Za misi rendez-vous."
+    },
+    {
+      "francais": "Vous avez un portable?",
+      "anglais": "Do you have a cell phone?",
+      "kibushi": "Anau misi portable ?"
+    },
+    {
+      "francais": "Vous avez combien de frères et sœurs?",
+      "anglais": "How many brothers and sisters do you have?",
+      "kibushi": "Anau misi zoki ndreka zandri ?"
+    },
+    {
+      "francais": "Il n’est pas marié.",
+      "anglais": "He’s not married.",
+      "kibushi": "Za pas marié."
+    },
+    {
+      "francais": "Je ne suis pas sûr(e).",
+      "anglais": "I am not sure.",
+      "kibushi": "Za pas sur."
+    },
+    {
+      "francais": "Nous n’avons pas d’enfants.",
+      "anglais": "We don’t have any children.",
+      "kibushi": "Za pas misi zanaka."
+    },
+    {
+      "francais": "Je n’ai pas de voiture.",
+      "anglais": "I don’t have a car.",
+      "kibushi": "Za pas misi voiture."
+    }
+    ]
+}

@@ -1,0 +1,379 @@
+{
+    "titre": "Les proches",
+    "phrases": [
+        {
+            "francais": "J’ai quatre enfants.",
+            "anglais": "I have four children.",
+            "kibushi": "Za misi zanaka efatra.",
+            "audio": {
+                "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+                "anglais": "assets/audio/phrase_01_en_hello.mp3"
+            },
+            "illustration": "assets/images/illustration_default_9_16.jpg"
+        },
+        {
+            "francais": "J’ai deux belles-filles.",
+            "anglais": "I have two stepdaughters.",
+            "kibushi": "Za misi zana viavi kambu aroyi."
+        },
+        {
+            "francais": "Nous sommes mariés.",
+            "anglais": "We are married.",
+            "kibushi": "Zeheyi manambadi."
+        },
+        {
+            "francais": "J'ai cinq fils.",
+            "anglais": "I have five sons.",
+            "kibushi": "Za misi zanaka lalahi dimi."
+        },
+        {
+            "francais": "J'ai trois sœurs et un frère.",
+            "anglais": "I have three sisters and a brother.",
+            "kibushi": "Za misi zokiviavi telu, zokilalahi areki."
+        },
+        {
+            "francais": "J'ai deux beaux-fils.",
+            "anglais": "I have two stepsons.",
+            "kibushi": "Za misi zana lahi kambu aroyi."
+        },
+        {
+            "francais": "Je suis marié(e).",
+            "anglais": "I’m married.",
+            "kibushi": "Zahu manambadi."
+        },
+        {
+            "francais": "J'ai deux fils.",
+            "anglais": "I have two sons.",
+            "kibushi": "Za misi zanaka lalahi aroyi."
+        },
+        {
+            "francais": "J'ai un fils.",
+            "anglais": "I have a son.",
+            "kibushi": "Za misi zanaka lalahi areki."
+        },
+        {
+            "francais": "J'ai une sœur.",
+            "anglais": "I have a sister.",
+            "kibushi": "Za misi zokiviavia areki."
+        },
+        {
+            "francais": "J'ai deux belles-filles et un beau-fils.",
+            "anglais": "I have two stepdaughters and a stepson.",
+            "kibushi": "Za misi zana viavi kambu aroyi, zana lahi kambu areki."
+        },
+        {
+            "francais": "J'ai deux enfants.",
+            "anglais": "I have two children.",
+            "kibushi": "Za misi zanaka aroyi."
+        },
+        {
+            "francais": "J'ai deux frères.",
+            "anglais": "I have two brothers.",
+            "kibushi": "Za misi zoki aroyi."
+        },
+        {
+            "francais": "Nous avons deux filles.",
+            "anglais": "We have two daughters.",
+            "kibushi": "Zeheyi misi zanaka viavi aroyi."
+        },
+        {
+            "francais": "J'ai quatre frères et sœurs.",
+            "anglais": "I have four siblings.",
+            "kibushi": "Za misi zoki zandri efatra."
+        },
+        {
+            "francais": "J'ai trois filles.",
+            "anglais": "I have three daughters.",
+            "kibushi": "Za misi zanaka viavi telu."
+        },
+        {
+            "francais": "C'est ma femme.",
+            "anglais": "This is my wife.",
+            "kibushi": "Izi vadiku viavi."
+        },
+        {
+            "francais": "J'ai un garçon et trois filles.",
+            "anglais": "I have a boy and three girls.",
+            "kibushi": "Za misi zanaka lalahi areki, zanaka viavi telu."
+        },
+        {
+            "francais": "J'ai deux garçons.",
+            "anglais": "I have two boys.",
+            "kibushi": "Za misi zanaka lalahi telu."
+        },
+        {
+            "francais": "J'ai trois enfants.",
+            "anglais": "I have three children.",
+            "kibushi": "Za misi zanaka telu."
+        },
+        {
+            "francais": "J'ai un frère et deux sœurs.",
+            "anglais": "I have a brother and two sisters.",
+            "kibushi": "Za misi zoki lalahi areki, zoki viavi aroyi."
+        }
+    ],
+  "vocabulaire": [
+      {
+        "kibushi": "zokiviavi/zandrivavi",
+        "francais": "grande sœur/petite sœur",
+        "anglais": "my big sister/my little sister",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "zoki/zandri",
+        "francais": "grand frère/petit frère",
+        "anglais": "my big brother/my little brother",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "zoki ndreka zandri",
+        "francais": "Des frères et sœurs",
+        "anglais": "siblings",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "mamaku",
+        "francais": "maman",
+        "anglais": "mom",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "babaku",
+        "francais": "papa",
+        "anglais": "dad",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "dadilahi",
+        "francais": "le grand-père",
+        "anglais": "grandfather",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "zokilahi",
+        "francais": "le frère",
+        "anglais": "brother",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "zokiviavi",
+        "francais": "la sœur",
+        "anglais": "sister",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "baba",
+        "francais": "le père",
+        "anglais": "father",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "mama",
+        "francais": "la mère",
+        "anglais": "mother",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "dadi",
+        "francais": "la grand-mère",
+        "anglais": "grandmother",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "zanaka lalahi",
+        "francais": "le fils",
+        "anglais": "son",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "zanaka viavi",
+        "francais": "la fille",
+        "anglais": "daughter",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "vadi lalahi",
+        "francais": "le mari",
+        "anglais": "husband",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "vadi viavi",
+        "francais": "la femme",
+        "anglais": "wife",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "ravetru",
+        "francais": "la belle-sœur",
+        "anglais": "sister-in-law/stepsister",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+        "kibushi": "valahi",
+        "francais": "le beau-frère",
+        "anglais": "brother-in-law/stepbrother",
+        "illustration": "assets/images/illustration_default_9_16.jpg"
+      },
+      {
+      "kibushi": "zanaka",
+      "francais": "les enfants",
+      "anglais": "children",
+      "audio": {
+        "francais": "assets/audio/children_fr.mp3",
+        "anglais": "assets/audio/children_en.mp3"
+      },
+      "illustration": "assets/images/children.jpg"
+    },
+    {
+      "kibushi": "(baba be, baba heli) / (nindri be, nindri heli)",
+      "francais": "oncle / tante",
+      "anglais": "uncle / aunt",
+      "audio": {
+        "francais": "assets/audio/uncle_aunt_fr.mp3",
+        "anglais": "assets/audio/uncle_aunt_en.mp3"
+      },
+      "illustration": "assets/images/uncle_aunt.jpg"
+    },
+    {
+      "kibushi": "anadahi / anabavi",
+      "francais": "cousin / cousine",
+      "anglais": "cousin",
+      "audio": {
+        "francais": "assets/audio/cousin_fr.mp3",
+        "anglais": "assets/audio/cousin_en.mp3"
+      },
+      "illustration": "assets/images/cousin.jpg"
+    },
+    {
+      "kibushi": "asidi",
+      "francais": "neveu / nièce",
+      "anglais": "nephew / niece",
+      "audio": {
+        "francais": "assets/audio/nephew_niece_fr.mp3",
+        "anglais": "assets/audio/nephew_niece_en.mp3"
+      },
+      "illustration": "assets/images/nephew_niece.jpg"
+    },
+    {
+      "kibushi": "zafi lahi",
+      "francais": "petit-fils",
+      "anglais": "grandson",
+      "audio": {
+        "francais": "assets/audio/grandson_fr.mp3",
+        "anglais": "assets/audio/grandson_en.mp3"
+      },
+      "illustration": "assets/images/grandson.jpg"
+    },
+    {
+      "kibushi": "zafi viavi",
+      "francais": "petite-fille",
+      "anglais": "granddaughter",
+      "audio": {
+        "francais": "assets/audio/granddaughter_fr.mp3",
+        "anglais": "assets/audio/granddaughter_en.mp3"
+      },
+      "illustration": "assets/images/granddaughter.jpg"
+    },
+    {
+    "kibushi": "areki",
+    "francais": "un",
+    "anglais": "one",
+    "audio": {
+      "francais": "assets/audio/one_fr.mp3",
+      "anglais": "assets/audio/one_en.mp3"
+    },
+    "illustration": "assets/images/one.jpg"
+  },
+  {
+    "kibushi": "aroyi",
+    "francais": "deux",
+    "anglais": "two",
+    "audio": {
+      "francais": "assets/audio/two_fr.mp3",
+      "anglais": "assets/audio/two_en.mp3"
+    },
+    "illustration": "assets/images/two.jpg"
+  },
+  {
+    "kibushi": "telu",
+    "francais": "trois",
+    "anglais": "three",
+    "audio": {
+      "francais": "assets/audio/three_fr.mp3",
+      "anglais": "assets/audio/three_en.mp3"
+    },
+    "illustration": "assets/images/three.jpg"
+  },
+  {
+    "kibushi": "efatra",
+    "francais": "quatre",
+    "anglais": "four",
+    "audio": {
+      "francais": "assets/audio/four_fr.mp3",
+      "anglais": "assets/audio/four_en.mp3"
+    },
+    "illustration": "assets/images/four.jpg"
+  },
+  {
+    "kibushi": "dimi",
+    "francais": "cinq",
+    "anglais": "five",
+    "audio": {
+      "francais": "assets/audio/five_fr.mp3",
+      "anglais": "assets/audio/five_en.mp3"
+    },
+    "illustration": "assets/images/five.jpg"
+  },
+  {
+    "kibushi": "tshuta",
+    "francais": "six",
+    "anglais": "six",
+    "audio": {
+      "francais": "assets/audio/six_fr.mp3",
+      "anglais": "assets/audio/six_en.mp3"
+    },
+    "illustration": "assets/images/six.jpg"
+  },
+  {
+    "kibushi": "fitu",
+    "francais": "sept",
+    "anglais": "seven",
+    "audio": {
+      "francais": "assets/audio/seven_fr.mp3",
+      "anglais": "assets/audio/seven_en.mp3"
+    },
+    "illustration": "assets/images/seven.jpg"
+  },
+  {
+    "kibushi": "valu",
+    "francais": "huit",
+    "anglais": "eight",
+    "audio": {
+      "francais": "assets/audio/eight_fr.mp3",
+      "anglais": "assets/audio/eight_en.mp3"
+    },
+    "illustration": "assets/images/eight.jpg"
+  },
+  {
+    "kibushi": "sivi",
+    "francais": "neuf",
+    "anglais": "nine",
+    "audio": {
+      "francais": "assets/audio/nine_fr.mp3",
+      "anglais": "assets/audio/nine_en.mp3"
+    },
+    "illustration": "assets/images/nine.jpg"
+  },
+  {
+    "kibushi": "fulu",
+    "francais": "dix",
+    "anglais": "ten",
+    "audio": {
+      "francais": "assets/audio/ten_fr.mp3",
+      "anglais": "assets/audio/ten_en.mp3"
+    },
+    "illustration": "assets/images/ten.jpg"
+  }
+  ]
+}

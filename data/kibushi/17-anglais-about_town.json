@@ -1,0 +1,266 @@
+{
+    "titre": "En ville",
+    "phrases": [
+        {
+      "kibushi": "eelyah oon galree dar oñ veel",
+      "francais": "Il y a une galerie d'art en ville?",
+      "anglais": "Is there an art gallery in town?",
+      "audio": {
+        "francais": "assets/audio/phrases_art_gallery_fr.mp3",
+        "anglais": "assets/audio/phrases_art_gallery_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "say lwañ deesee",
+      "francais": "C'est loin d'ici?",
+      "anglais": "Is it far from here?",
+      "audio": {
+        "francais": "assets/audio/phrases_far_fr.mp3",
+        "anglais": "assets/audio/phrases_far_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "eelyah oon piseen pray doo poñ",
+      "francais": "Il y a une piscine près du pont.",
+      "anglais": "There is a swimming pool near the bridge.",
+      "audio": {
+        "francais": "assets/audio/phrases_pool_fr.mp3",
+        "anglais": "assets/audio/phrases_pool_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "eenn yah pah duh beeb-lee-yotek",
+      "francais": "Il n'y a pas de bibliothèque.",
+      "anglais": "There isn't a library.",
+      "audio": {
+        "francais": "assets/audio/phrases_library_fr.mp3",
+        "anglais": "assets/audio/phrases_library_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "lah katedral eh oh sontruh veel",
+      "francais": "La cathédrale est au centre-ville.",
+      "anglais": "The cathedral is downtown.",
+      "audio": {
+        "francais": "assets/audio/phrases_cathedral_fr.mp3",
+        "anglais": "assets/audio/phrases_cathedral_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+],
+  "dialogues": [
+    {
+      "titre": "Présentation",
+      "audio": {
+        "francais": "assets/audio/dialogue_presentation_fr.mp3",
+        "anglais": "assets/audio/dialogue_presentation_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Céline",
+          "francais": "Bonjour. Je m'appelle Céline Legrand.",
+          "anglais": "Hello. My name is Céline Legrand.",
+          "kibushi": "Salama, Zahu kahindreu Céline Legrand."
+        },
+        {
+          "personnage": "Monsieur Rossi",
+          "francais": "Bonjour madame. Monsieur Rossi, enchanté.",
+          "anglais": "Hello (madam). Mr. Rossi, pleased to meet you.",
+          "kibushi": "Salama viavi. Mr. Rossi, za ravuravu mahita anau."
+        },
+        {
+          "personnage": "Céline",
+          "francais": "Enchantée.",
+          "anglais": "Pleased to meet you.",
+          "kibushi": "Za ravuravu kua."
+        }
+      ]
+    },
+    {
+      "titre": "Se saluer et se présenter",
+      "audio": {
+        "francais": "assets/audio/dialogue_salutations_fr.mp3",
+        "anglais": "assets/audio/dialogue_salutations_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Martine",
+          "francais": "Bonjour monsieur.",
+          "anglais": "Hello, sir.",
+          "kibushi": "Salama, lahi."
+        },
+        {
+          "personnage": "Marc",
+          "francais": "Bonjour mademoiselle.",
+          "anglais": "Hello, mademoiselle.",
+          "kibushi": "Salama, tseki viavi."
+        },
+        {
+          "personnage": "Martine",
+          "francais": "Je m'appelle Martine.",
+          "anglais": "My name is Martine.",
+          "kibushi": "Zahu kahindreu Martine."
+        },
+        {
+          "personnage": "Marc",
+          "francais": "Enchanté",
+          "anglais": "Pleased to meet you.",
+          "kibushi": "Za ravuravu mahita anau."
+        }
+      ]
+    },
+    {
+      "titre": "Au revoir",
+      "audio": {
+        "francais": "assets/audio/dialogue_au_revoir_fr.mp3",
+        "anglais": "assets/audio/dialogue_au_revoir_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Pierre",
+          "francais": "Alors, à demain?",
+          "anglais": "So, see you tomorrow?",
+          "kibushi": "Amareyi kua !"
+        },
+        {
+          "personnage": "Marie",
+          "francais": "Oui, au revoir.",
+          "anglais": "Yes, goodbye.",
+          "kibushi": "Veluma !"
+        },
+        {
+          "personnage": "Pierre",
+          "francais": "Au revoir. A bientôt.",
+          "anglais": "Goodbye. See you soon.",
+          "kibushi": "Veluma. Zuva hafa kua!"
+        }
+      ]
+    }
+  ],
+  "vocabulaire": [
+    {
+      "kibushi": "luh mayree",
+      "francais": "la mairie",
+      "anglais": "town hall",
+      "audio": {
+        "francais": "assets/audio/vocab_townhall_fr.mp3",
+        "anglais": "assets/audio/vocab_townhall_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh pon",
+      "francais": "le pont",
+      "anglais": "bridge",
+      "audio": {
+        "francais": "assets/audio/vocab_bridge_fr.mp3",
+        "anglais": "assets/audio/vocab_bridge_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh sontruh veel",
+      "francais": "le centre-ville",
+      "anglais": "downtown",
+      "audio": {
+        "francais": "assets/audio/vocab_downtown_fr.mp3",
+        "anglais": "assets/audio/vocab_downtown_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "legleez",
+      "francais": "l'église",
+      "anglais": "church",
+      "audio": {
+        "francais": "assets/audio/vocab_church_fr.mp3",
+        "anglais": "assets/audio/vocab_church_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh parking",
+      "francais": "le parking",
+      "anglais": "parking lot",
+      "audio": {
+        "francais": "assets/audio/vocab_parking_fr.mp3",
+        "anglais": "assets/audio/vocab_parking_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh plas",
+      "francais": "la place",
+      "anglais": "square",
+      "audio": {
+        "francais": "assets/audio/vocab_square_fr.mp3",
+        "anglais": "assets/audio/vocab_square_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh galree dar",
+      "francais": "la galerie d'art",
+      "anglais": "art gallery",
+      "audio": {
+        "francais": "assets/audio/vocab_artgallery_fr.mp3",
+        "anglais": "assets/audio/vocab_artgallery_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh moozay",
+      "francais": "le musée",
+      "anglais": "museum",
+      "audio": {
+        "francais": "assets/audio/vocab_museum_fr.mp3",
+        "anglais": "assets/audio/vocab_museum_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "la stasyon serves",
+      "francais": "la station-service",
+      "anglais": "gas station",
+      "audio": {
+        "francais": "assets/audio/vocab_gasstation_fr.mp3",
+        "anglais": "assets/audio/vocab_gasstation_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh sañdeeka deenees yuteev",
+      "francais": "le syndicat d'initiative",
+      "anglais": "tourist information",
+      "audio": {
+        "francais": "assets/audio/vocab_touristinfo_fr.mp3",
+        "anglais": "assets/audio/vocab_touristinfo_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh garaʒ",
+      "francais": "le garage",
+      "anglais": "car repair shop",
+      "audio": {
+        "francais": "assets/audio/vocab_garage_fr.mp3",
+        "anglais": "assets/audio/vocab_garage_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "luh piseen moon eeseepal",
+      "francais": "la piscine municipale",
+      "anglais": "public swimming pool",
+      "audio": {
+        "francais": "assets/audio/vocab_pool_fr.mp3",
+        "anglais": "assets/audio/vocab_pool_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

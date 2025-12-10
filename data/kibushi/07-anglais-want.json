@@ -1,0 +1,114 @@
+{
+    "titre": "Vouloir",
+    "phrases": [
+        { "francais": "je voudrais", "anglais": "I would like", "kibushi": "I’d like" },
+    { "francais": "je veux", "anglais": "I want", "kibushi": "" },
+    { "francais": "Je veux des bonbons.", "anglais": "I want some candy.", "kibushi": "" },
+    { "francais": "Tu veux du vin?", "anglais": "Do you want some wine?", "kibushi": "" },
+    { "francais": "Elle veut une nouvelle voiture.", "anglais": "She wants a new car.", "kibushi": "" },
+    { "francais": "Nous voulons aller en vacances.", "anglais": "We want to go on holiday.", "kibushi": "We want to go on vacation." },
+    { "francais": "Je voudrais une bière, s’il vous plaît.", "anglais": "I’d like a beer, please.", "kibushi": "" },
+    { "francais": "Je voudrais une table pour ce soir.", "anglais": "I’d like a table for tonight.", "kibushi": "" },
+    { "francais": "Je voudrais la carte.", "anglais": "I’d like the menu.", "kibushi": "" },
+    { "francais": "Que voulez-vous boire ?", "anglais": "What do you want to drink?", "kibushi": "" },
+    { "francais": "I’d like a beer.", "anglais": "Je voudrais une bière.", "kibushi": "" },
+    { "francais": "I’d like to see the menu, please.", "anglais": "Je voudrais voir le menu, s'il vous plaît.", "kibushi": "" },
+    { "francais": "I want some coffee.", "anglais": "Je veux du café.", "kibushi": "" },
+    { "francais": "I want some beer.", "anglais": "Je veux de la bière.", "kibushi": "" },
+    { "francais": "I want some lemons.", "anglais": "Je veux des citrons.", "kibushi": "" },
+    { "francais": "I want some candy.", "anglais": "Je veux des bonbons.", "kibushi": "" },
+    { "francais": "I’d like a coffee.", "anglais": "Je voudrais un café.", "kibushi": "" },
+    { "francais": "I’d like the menu, please.", "anglais": "Je voudrais le menu, s'il vous plaît.", "kibushi": "" },
+    { "francais": "I want a cake, please.", "anglais": "Je veux un gâteau, s'il vous plaît.", "kibushi": "" },
+    { "francais": "I want a fork, please.", "anglais": "Je veux une fourchette, s'il vous plaît.", "kibushi": "" },
+    { "francais": "I’d like a tea.", "anglais": "Je voudrais du thé.", "kibushi": "" },
+    { "francais": "Nous voudrions une table pour trois.", "anglais": "We’d like a table for three.", "kibushi": "" },
+    { "francais": "I want some sweets, please.", "anglais": "Je veux des bonbons, s'il vous plaît.", "kibushi": "" },
+    { "francais": "Remplissez-le, s'il vous plaît.", "anglais": "Fill it up, please.", "kibushi": "" },
+    { "francais": "Je voudrais parler à M. Wang.", "anglais": "I’d like to speak to Mr. Wang.", "kibushi": "" },
+    { "francais": "Pourriez-vous m'aider, s'il vous plaît ?", "anglais": "Would you please help me?", "kibushi": "" },
+    { "francais": "Pourrais-je avoir votre signature ici, s'il vous plaît ?", "anglais": "Could I have your signature here, please?", "kibushi": "" },
+    { "francais": "Pourrais-je avoir votre numéro de téléphone, s'il vous plaît ?", "anglais": "Could I have your phone number, please?", "kibushi": "" },
+    { "francais": "Je voudrais du thé, s'il vous plaît.", "anglais": "(I’d like) some tea, please.", "kibushi": "" },
+    { "francais": "Je voudrais un gâteau, s'il vous plaît.", "anglais": "(I’d like) a cake, please.", "kibushi": "" },
+    { "francais": "Je voudrais une fourchette, s'il vous plaît.", "anglais": "(I’d like) a fork, please.", "kibushi": "" },
+    { "francais": "Je voudrais une table pour trois, s'il vous plaît.", "anglais": "(I’d like) a table for three, please.", "kibushi": "" },
+    { "francais": "Je voudrais le menu, s'il vous plaît.", "anglais": "(I’d like) the menu, please.", "kibushi": "" },
+    { "francais": "Je voudrais le menu, s'il vous plaît.", "anglais": "(I’d like) some candy, please.", "kibushi": "" },
+    { "francais": "Je voudrais M. Yamato, s'il vous plaît.", "anglais": "(I’d like) Mr. Yamato, please.", "kibushi": "" },
+    { "francais": "Je veux le menu, s'il vous plaît.", "anglais": "I want the menu, please.", "kibushi": "" },
+    { "francais": "Veux-tu du café ? (informel) / Voulez-vous du café ? (formel)", "anglais": "Do you want coffee?", "kibushi": "" },
+    { "francais": "Veulent-ils des chocolats ?", "anglais": "Do they want chocolates?", "kibushi": "" },
+    { "francais": "Puis-je avoir un jus, s'il vous plaît ?", "anglais": "Can I have a juice, please?", "kibushi": "" },
+    { "francais": "Puis-je avoir une table pour ce soir, s'il vous plaît ?", "anglais": "Can I have a table for tonight, please?", "kibushi": "" },
+    { "francais": "Pouvons-nous avoir le menu, s'il vous plaît ?", "anglais": "Can we have the menu, please?", "kibushi": "" }
+    ],
+  "dialogues": [
+    {
+  "titre": "Réservation pour trois",
+  "audio": {
+    "francais": "assets/audio/dialogue_reservation_trois_fr.mp3",
+    "anglais": "assets/audio/dialogue_reservation_trois_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Serveur",
+      "francais": "Bonsoir, madame. Vous avez une réservation?",
+      "anglais": "Good evening, madam. Do you have a reservation?",
+      "kibushi": ""
+    },
+    {
+      "personnage": "Client",
+      "francais": "Non, mais je voudrais une table pour trois, s’il vous plaît.",
+      "anglais": "No, but I would like a table for three, please.",
+      "kibushi": ""
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quelle table vous préférez?",
+      "anglais": "Which table would you like?",
+      "kibushi": ""
+    },
+    {
+      "personnage": "Client",
+      "francais": "Près de la fenêtre, s’il vous plaît.",
+      "anglais": "Near the window, please.",
+      "kibushi": ""
+    }
+  ]
+}
+
+  ],
+  "vocabulaire": [
+    {
+      "kibushi": "lahi",
+      "francais": "monsieur",
+      "anglais": "sir",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "viavi",
+      "francais": "madame",
+      "anglais": "madam",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "tseki viavi",
+      "francais": "mademoiselle",
+      "anglais": "miss",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

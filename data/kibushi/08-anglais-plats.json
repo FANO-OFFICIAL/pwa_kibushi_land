@@ -1,0 +1,357 @@
+{
+    "titre": "Les plats",
+    "phrases": [
+        {
+            "francais": "Je voudrais mon steak bien cuit.",
+            "anglais": "I’d like my steak well done.",
+            "kibushi": null
+        },
+        {
+            "francais": "Qu'est-ce que le cassoulet ?",
+            "anglais": "What is cassoulet?",
+            "kibushi": null
+        },
+        {
+            "francais": "Je suis allergique aux fruits de mer.",
+            "anglais": "I’m allergic to seafood.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je voudrais une bière.",
+            "anglais": "I’d like a beer.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je suis végétarien.",
+            "anglais": "I’m a vegetarian.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je suis allergique aux noix.",
+            "anglais": "I’m allergic to nuts.",
+            "kibushi": null
+        },
+        {
+            "francais": "Qu’est que c’est les “escargots”?",
+            "anglais": "What are “escargots”?",
+            "kibushi": null
+        },
+        {
+            "francais": "Qu'est-ce que lie Sauerbraten ?",
+            "anglais": "What is Sauerbraten?",
+            "kibushi": null
+        },
+        {
+            "francais": "Je voudrais un jus de fruit.",
+            "anglais": "I’d like a fruit juice.",
+            "kibushi": null
+        },
+        {
+            "francais": "Qu'est-ce que les \"Spätzle\" ?",
+            "anglais": "What is “Spätzle”?",
+            "kibushi": null
+        },
+        {
+            "francais": "Qu'est-ce que la tortilla ?",
+            "anglais": "What is tortilla?",
+            "kibushi": null
+        },
+        {
+            "francais": "Quel type de poisson avez-vous ?",
+            "anglais": "What type of fish do you have?",
+            "kibushi": null
+        },
+        {
+            "francais": "Je voudrais un baijiu.",
+            "anglais": "I’d like a baijiu.",
+            "kibushi": null
+        },
+        {
+            "francais": "Qu'est-ce que le \"Nuomi\" ?",
+            "anglais": "What’s “Nuomi”?",
+            "kibushi": null
+        },
+        {
+            "francais": "Quel type de viande avez-vous ?",
+            "anglais": "What type of meat do you have?",
+            "kibushi": null
+        },
+        {
+            "francais": "Je suis végétarien(ne).",
+            "anglais": "I’m vegetarian.",
+            "kibushi": null
+        },
+        {
+            "francais": "Une bière, s'il vous plaît.",
+            "anglais": "A beer, please.",
+            "kibushi": null
+        },
+        {
+            "francais": "Est-ce que ce poisson est grillé ?",
+            "anglais": "Is this fish grilled?",
+            "kibushi": null
+        },
+        {
+            "francais": "Est-ce que ce poisson est cru ?",
+            "anglais": "Is this fish raw?",
+            "kibushi": null
+        },
+        {
+            "francais": "Puis-je avoir de la viande grillée ?",
+            "anglais": "Can I have grilled meat?",
+            "kibushi": null
+        }
+    ],
+  "vocabulaire": [
+    {
+      "kibushi": "",
+      "francais": "Plat du jour",
+      "anglais": "dish of the day",
+      "audio": {
+        "francais": "assets/audio/vocab_plat_du_jour_fr.mp3",
+        "anglais": "assets/audio/vocab_plat_du_jour_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Eau pétillante",
+      "anglais": "sparkling water",
+      "audio": {
+        "francais": "assets/audio/vocab_sparkling_water_fr.mp3",
+        "anglais": "assets/audio/vocab_sparkling_water_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les légumes (m)",
+      "anglais": "vegetables",
+      "audio": {
+        "francais": "assets/audio/vocab_vegetables_fr.mp3",
+        "anglais": "assets/audio/vocab_vegetables_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le fruit",
+      "anglais": "fruit",
+      "audio": {
+        "francais": "assets/audio/vocab_fruit_fr.mp3",
+        "anglais": "assets/audio/vocab_fruit_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le fromage",
+      "anglais": "cheese",
+      "audio": {
+        "francais": "assets/audio/vocab_cheese_fr.mp3",
+        "anglais": "assets/audio/vocab_cheese_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les noix (f)",
+      "anglais": "nuts",
+      "audio": {
+        "francais": "assets/audio/vocab_nuts_fr.mp3",
+        "anglais": "assets/audio/vocab_nuts_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la soupe",
+      "anglais": "soup",
+      "audio": {
+        "francais": "assets/audio/vocab_soup_fr.mp3",
+        "anglais": "assets/audio/vocab_soup_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la volaille",
+      "anglais": "poultry",
+      "audio": {
+        "francais": "assets/audio/vocab_poultry_fr.mp3",
+        "anglais": "assets/audio/vocab_poultry_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le poisson",
+      "anglais": "fish",
+      "audio": {
+        "francais": "assets/audio/vocab_fish_fr.mp3",
+        "anglais": "assets/audio/vocab_fish_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les pâtes (f)",
+      "anglais": "pasta",
+      "audio": {
+        "francais": "assets/audio/vocab_pasta_fr.mp3",
+        "anglais": "assets/audio/vocab_pasta_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les fruits de mer (m)",
+      "anglais": "seafood",
+      "audio": {
+        "francais": "assets/audio/vocab_seafood_fr.mp3",
+        "anglais": "assets/audio/vocab_seafood_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la viande",
+      "anglais": "meat",
+      "audio": {
+        "francais": "assets/audio/vocab_meat_fr.mp3",
+        "anglais": "assets/audio/vocab_meat_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "frit(e)",
+      "anglais": "fried",
+      "audio": {
+        "francais": "assets/audio/vocab_fried_fr.mp3",
+        "anglais": "assets/audio/vocab_fried_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "grillé(e)",
+      "anglais": "grilled",
+      "audio": {
+        "francais": "assets/audio/vocab_grilled_fr.mp3",
+        "anglais": "assets/audio/vocab_grilled_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "rôti(e)",
+      "anglais": "roasted",
+      "audio": {
+        "francais": "assets/audio/vocab_roasted_fr.mp3",
+        "anglais": "assets/audio/vocab_roasted_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "bouilli(e)",
+      "anglais": "boiled",
+      "audio": {
+        "francais": "assets/audio/vocab_boiled_fr.mp3",
+        "anglais": "assets/audio/vocab_boiled_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "à la vapeur",
+      "anglais": "steamed",
+      "audio": {
+        "francais": "assets/audio/vocab_steamed_fr.mp3",
+        "anglais": "assets/audio/vocab_steamed_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "saignant(e)",
+      "anglais": "rare",
+      "audio": {
+        "francais": "assets/audio/vocab_rare_fr.mp3",
+        "anglais": "assets/audio/vocab_rare_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "l’eau (f)",
+      "anglais": "water",
+      "audio": {
+        "francais": "assets/audio/vocab_water_fr.mp3",
+        "anglais": "assets/audio/vocab_water_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "l’eau gazeuse (f)",
+      "anglais": "fizzy water",
+      "audio": {
+        "francais": "assets/audio/vocab_fizzy_water_fr.mp3",
+        "anglais": "assets/audio/vocab_fizzy_water_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "l’eau plate (f)",
+      "anglais": "still water",
+      "audio": {
+        "francais": "assets/audio/vocab_still_water_fr.mp3",
+        "anglais": "assets/audio/vocab_still_water_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le vin",
+      "anglais": "wine",
+      "audio": {
+        "francais": "assets/audio/vocab_wine_fr.mp3",
+        "anglais": "assets/audio/vocab_wine_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la bière",
+      "anglais": "beer",
+      "audio": {
+        "francais": "assets/audio/vocab_beer_fr.mp3",
+        "anglais": "assets/audio/vocab_beer_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le jus de fruits",
+      "anglais": "fruit juice",
+      "audio": {
+        "francais": "assets/audio/vocab_fruit_juice_fr.mp3",
+        "anglais": "assets/audio/vocab_fruit_juice_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "eau minérale",
+      "anglais": "mineral water",
+      "audio": {
+        "francais": "assets/audio/vocab_mineral_water_fr.mp3",
+        "anglais": "assets/audio/vocab_mineral_water_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

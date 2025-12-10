@@ -1,0 +1,226 @@
+{
+  "titre": "Bonjour",
+  "phrases": [
+    {
+      "francais": "Salut!",
+      "anglais": "Hi!",
+      "allemand": "Akori?",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bonjour.",
+      "anglais": "Good morning",
+      "allemand": "Akori marandreni ?",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bon après-midi",
+      "anglais": "Good afternoon",
+      "allemand": "Akori hariva ?",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bonjour.",
+      "anglais": "Hello.",
+      "allemand": "Akori marandreni ?",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bonsoir.",
+      "anglais": "Good evening.",
+      "allemand": "Akori matuŋali?",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bonne nuit.",
+      "anglais": "Good night.",
+      "allemand": "Tsara mandri!",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Je m’appelle Jean.",
+      "anglais": "My name is Jean.",
+      "allemand": "Zahu kahindreu Jean.",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Enchanté (men)/Enchantée (women).",
+      "anglais": "Pleased to meet you.",
+      "allemand": "Za ravuravu mahita anau.",
+      "audio": {
+        "francais": "assets/audio/phrase_01_fr_bonjour_.mp3",
+        "anglais": "assets/audio/phrase_01_en_hello.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Au revoir.",
+      "anglais": "Goodbye.",
+      "allemand": "Veluma!"
+    },
+    {
+      "francais": "A bientôt.",
+      "anglais": "See you soon.",
+      "allemand": "Zuva hafa kua !"
+    },
+    {
+      "francais": "A demain.",
+      "anglais": "See you tomorrow.",
+      "allemand": "Amareyi kua !"
+    },
+    {
+      "francais": "Merci (beaucoup).",
+      "anglais": "Thank you (very much).",
+      "allemand": "Misotra (be)."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Présentation",
+      "audio": {
+        "francais": "assets/audio/dialogue_presentation_fr.mp3",
+        "anglais": "assets/audio/dialogue_presentation_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Céline",
+          "francais": "Bonjour. Je m'appelle Céline Legrand.",
+          "anglais": "Hello. My name is Céline Legrand.",
+          "allemand": "Salama, Zahu kahindreu Céline Legrand."
+        },
+        {
+          "personnage": "Monsieur Rossi",
+          "francais": "Bonjour madame. Monsieur Rossi, enchanté.",
+          "anglais": "Hello (madam). Mr. Rossi, pleased to meet you.",
+          "allemand": "Salama viavi. Mr. Rossi, za ravuravu mahita anau."
+        },
+        {
+          "personnage": "Céline",
+          "francais": "Enchantée.",
+          "anglais": "Pleased to meet you.",
+          "allemand": "Za ravuravu kua."
+        }
+      ]
+    },
+    {
+      "titre": "Se saluer et se présenter",
+      "audio": {
+        "francais": "assets/audio/dialogue_salutations_fr.mp3",
+        "anglais": "assets/audio/dialogue_salutations_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Martine",
+          "francais": "Bonjour monsieur.",
+          "anglais": "Hello, sir.",
+          "allemand": "Salama, lahi."
+        },
+        {
+          "personnage": "Marc",
+          "francais": "Bonjour mademoiselle.",
+          "anglais": "Hello, mademoiselle.",
+          "allemand": "Salama, tseki viavi."
+        },
+        {
+          "personnage": "Martine",
+          "francais": "Je m'appelle Martine.",
+          "anglais": "My name is Martine.",
+          "allemand": "Zahu kahindreu Martine."
+        },
+        {
+          "personnage": "Marc",
+          "francais": "Enchanté",
+          "anglais": "Pleased to meet you.",
+          "allemand": "Za ravuravu mahita anau."
+        }
+      ]
+    },
+    {
+      "titre": "Au revoir",
+      "audio": {
+        "francais": "assets/audio/dialogue_au_revoir_fr.mp3",
+        "anglais": "assets/audio/dialogue_au_revoir_en.mp3"
+      },
+      "conversation": [
+        {
+          "personnage": "Pierre",
+          "francais": "Alors, à demain?",
+          "anglais": "So, see you tomorrow?",
+          "allemand": "Amareyi kua !"
+        },
+        {
+          "personnage": "Marie",
+          "francais": "Oui, au revoir.",
+          "anglais": "Yes, goodbye.",
+          "allemand": "Veluma !"
+        },
+        {
+          "personnage": "Pierre",
+          "francais": "Au revoir. A bientôt.",
+          "anglais": "Goodbye. See you soon.",
+          "allemand": "Veluma. Zuva hafa kua!"
+        }
+      ]
+    }
+  ],
+  "vocabulaire": [
+    {
+      "allemand": "lahi",
+      "francais": "monsieur",
+      "anglais": "sir",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "allemand": "viavi",
+      "francais": "madame",
+      "anglais": "madam",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "allemand": "tseki viavi",
+      "francais": "mademoiselle",
+      "anglais": "miss",
+      "audio": {
+        "francais": "assets/audio/vocab_02_fr.mp3",
+        "anglais": "assets/audio/vocab_02_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

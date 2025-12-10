@@ -1,0 +1,294 @@
+{
+    "titre": "Au restaurant",
+    "phrases": [
+        {
+      "francais": "Qu’est ce que vous avez comme dessert?",
+      "anglais": "What do you have for dessert?",
+      "kibushi": "What desserts do you have?"
+    },
+    {
+      "francais": "L’addition, s’il vous plait.",
+      "anglais": "The check, please.",
+      "kibushi": ""
+    },
+    {
+      "francais": "Puis-je avoir l'addition, s'il vous plaît ?",
+      "anglais": "May I have the check, please?",
+      "kibushi": ""
+    },
+    {
+      "francais": "Quel type de nouilles avez-vous ?",
+      "anglais": "What type of noodles do you have?",
+      "kibushi": ""
+    },
+    {
+      "francais": "Où puis-je payer ?",
+      "anglais": "Where can I pay?",
+      "kibushi": ""
+    },
+    {
+      "francais": "Quel type de sushi avez-vous ?",
+      "anglais": "What type of sushi do you have?",
+      "kibushi": ""
+    }
+    ],
+  "dialogues": [
+    {
+  "titre": "Réservation d'une table",
+  "audio": {
+    "francais": "assets/audio/dialogue_reservation_fr.mp3",
+    "anglais": "assets/audio/dialogue_reservation_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Bonjour. Je voudrais une table pour quatre.",
+      "anglais": "Hello. I would like a table for four.",
+      "kibushi": "Salama. Za mila latabu holu efatra."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Vous avez une réservation?",
+      "anglais": "Do you have a reservation?",
+      "kibushi": "Anau misi reservation?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, au nom de Smith.",
+      "anglais": "Yes, in the name of Smith.",
+      "kibushi": "Ewa, an'aŋarana Smith."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "D’accord. Quelle table vous préférez?",
+      "anglais": "Fine. Which table would you like?",
+      "kibushi": "Ewa. Inu pulasi tianau ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Près de la fenêtre, s’il vous plaît.",
+      "anglais": "Near the window, please.",
+      "kibushi": "Aluha lafumetra; azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Mais bien sûr. Suivez-moi.",
+      "anglais": "Of course. Follow me.",
+      "kibushi": "Ewa. Miaraka zahu !"
+    }
+  ]
+}
+  ],
+  "vocabulaire": [
+   {
+      "kibushi": "",
+      "francais": "Fèves",
+      "anglais": "fava beans",
+      "audio": {
+        "francais": "assets/audio/vocab_fèves_fr.mp3",
+        "anglais": "assets/audio/vocab_fèves_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Boulettes de pois chiches",
+      "anglais": "chickpea balls",
+      "audio": {
+        "francais": "assets/audio/vocab_chickpea_balls_fr.mp3",
+        "anglais": "assets/audio/vocab_chickpea_balls_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Viande hachée",
+      "anglais": "minced meat",
+      "audio": {
+        "francais": "assets/audio/vocab_minced_meat_fr.mp3",
+        "anglais": "assets/audio/vocab_minced_meat_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Poulet",
+      "anglais": "chicken",
+      "audio": {
+        "francais": "assets/audio/vocab_chicken_fr.mp3",
+        "anglais": "assets/audio/vocab_chicken_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "entrées",
+      "anglais": "entrées",
+      "audio": {
+        "francais": "assets/audio/vocab_entrees_fr.mp3",
+        "anglais": "assets/audio/vocab_entrees_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la tasse",
+      "anglais": "cup",
+      "audio": {
+        "francais": "assets/audio/vocab_cup_fr.mp3",
+        "anglais": "assets/audio/vocab_cup_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la soucoupe",
+      "anglais": "saucer",
+      "audio": {
+        "francais": "assets/audio/vocab_saucer_fr.mp3",
+        "anglais": "assets/audio/vocab_saucer_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la cuillère",
+      "anglais": "spoon",
+      "audio": {
+        "francais": "assets/audio/vocab_spoon_fr.mp3",
+        "anglais": "assets/audio/vocab_spoon_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le couteau",
+      "anglais": "knife",
+      "audio": {
+        "francais": "assets/audio/vocab_knife_fr.mp3",
+        "anglais": "assets/audio/vocab_knife_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la fourchette",
+      "anglais": "fork",
+      "audio": {
+        "francais": "assets/audio/vocab_fork_fr.mp3",
+        "anglais": "assets/audio/vocab_fork_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le verre",
+      "anglais": "glass",
+      "audio": {
+        "francais": "assets/audio/vocab_glass_fr.mp3",
+        "anglais": "assets/audio/vocab_glass_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la serviette",
+      "anglais": "napkin",
+      "audio": {
+        "francais": "assets/audio/vocab_napkin_fr.mp3",
+        "anglais": "assets/audio/vocab_napkin_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "l’assiette",
+      "anglais": "plate",
+      "audio": {
+        "francais": "assets/audio/vocab_plate_fr.mp3",
+        "anglais": "assets/audio/vocab_plate_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la carte",
+      "anglais": "menu",
+      "audio": {
+        "francais": "assets/audio/vocab_menu_fr.mp3",
+        "anglais": "assets/audio/vocab_menu_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la carte des vins",
+      "anglais": "wine list",
+      "audio": {
+        "francais": "assets/audio/vocab_wine_list_fr.mp3",
+        "anglais": "assets/audio/vocab_wine_list_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les entrées",
+      "anglais": "appetizers",
+      "audio": {
+        "francais": "assets/audio/vocab_appetizers_fr.mp3",
+        "anglais": "assets/audio/vocab_appetizers_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les plats",
+      "anglais": "main courses",
+      "audio": {
+        "francais": "assets/audio/vocab_main_courses_fr.mp3",
+        "anglais": "assets/audio/vocab_main_courses_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "les desserts",
+      "anglais": "desserts",
+      "audio": {
+        "francais": "assets/audio/vocab_desserts_fr.mp3",
+        "anglais": "assets/audio/vocab_desserts_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le déjeuner",
+      "anglais": "lunch",
+      "audio": {
+        "francais": "assets/audio/vocab_lunch_fr.mp3",
+        "anglais": "assets/audio/vocab_lunch_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le dîner",
+      "anglais": "dinner",
+      "audio": {
+        "francais": "assets/audio/vocab_dinner_fr.mp3",
+        "anglais": "assets/audio/vocab_dinner_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le petit-déjeuner",
+      "anglais": "breakfast",
+      "audio": {
+        "francais": "assets/audio/vocab_breakfast_fr.mp3",
+        "anglais": "assets/audio/vocab_breakfast_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

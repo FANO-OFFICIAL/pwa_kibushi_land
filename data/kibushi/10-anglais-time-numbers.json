@@ -1,0 +1,307 @@
+{
+    "titre": "L'heure et les nombres",
+    "phrases": [
+        {
+            "francais": "Quelle heure est-il?",
+            "anglais": "What time is it?",
+            "kibushi": null
+        },
+        {
+            "francais": "À quelle heure voulez-vous le petit déjeuner?",
+            "anglais": "What time do you want breakfast?",
+            "kibushi": null
+        },
+        {
+            "francais": "J’ai une réservation pour douze heures.",
+            "anglais": "I have a reservation for twelve o’clock.",
+            "kibushi": null
+        },
+        {
+            "francais": "À quelle heure est le déjeuner ?",
+            "anglais": "What time is lunch?",
+            "kibushi": null
+        },
+        {
+            "francais": "Ça fait quatre-vingt-cinq euros.",
+            "anglais": "That’s eighty-five euros.",
+            "kibushi": null
+        },
+        {
+            "francais": "La réunion est à midi.",
+            "anglais": "The meeting is at noon.",
+            "kibushi": null
+        },
+        {
+            "francais": "J'ai beaucoup de livres.",
+            "anglais": "I have many books.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je veux le bus de la ligne 53.",
+            "anglais": "I want the route 53 bus.",
+            "kibushi": null
+        },
+        {
+            "francais": "Demain, c'est le 1er février.",
+            "anglais": "Tomorrow is the first of February.",
+            "kibushi": null
+        },
+        {
+            "francais": "Aujourd'hui, nous sommes le 26 septembre.",
+            "anglais": "Today is September 26th.",
+            "kibushi": null
+        },
+        {
+            "francais": "Ça fait 500 yuans.",
+            "anglais": "That’s 500 yuan.",
+            "kibushi": null
+        },
+        {
+            "francais": "Je veux le bus numéro 53.",
+            "anglais": "I want the number 53 bus.",
+            "kibushi": null
+        },
+        {
+            "francais": "La réunion est à 12 heures.",
+            "anglais": "The meeting is at 12 o’clock.",
+            "kibushi": null
+        }
+    ],
+  "vocabulaire": [
+    {
+      "kibushi": "",
+      "francais": "le matin",
+      "anglais": "in the morning",
+      "audio": {
+        "francais": "assets/audio/vocab_morning_fr.mp3",
+        "anglais": "assets/audio/vocab_morning_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "l’après-midi",
+      "anglais": "in the afternoon",
+      "audio": {
+        "francais": "assets/audio/vocab_afternoon_fr.mp3",
+        "anglais": "assets/audio/vocab_afternoon_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le soir",
+      "anglais": "in the evening",
+      "audio": {
+        "francais": "assets/audio/vocab_evening_fr.mp3",
+        "anglais": "assets/audio/vocab_evening_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "la nuit",
+      "anglais": "at night",
+      "audio": {
+        "francais": "assets/audio/vocab_night_fr.mp3",
+        "anglais": "assets/audio/vocab_night_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "dix heures",
+      "anglais": "It’s ten o’clock",
+      "audio": {
+        "francais": "assets/audio/vocab_ten_oclock_fr.mp3",
+        "anglais": "assets/audio/vocab_ten_oclock_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "une heure",
+      "anglais": "one o’clock",
+      "audio": {
+        "francais": "assets/audio/vocab_one_oclock_fr.mp3",
+        "anglais": "assets/audio/vocab_one_oclock_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "une heure cinq",
+      "anglais": "five after one",
+      "audio": {
+        "francais": "assets/audio/vocab_five_after_one_fr.mp3",
+        "anglais": "assets/audio/vocab_five_after_one_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "une heure et quart",
+      "anglais": "quarter after one",
+      "audio": {
+        "francais": "assets/audio/vocab_quarter_after_one_fr.mp3",
+        "anglais": "assets/audio/vocab_quarter_after_one_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "une heure vingt",
+      "anglais": "one-twenty",
+      "audio": {
+        "francais": "assets/audio/vocab_one_twenty_fr.mp3",
+        "anglais": "assets/audio/vocab_one_twenty_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "une heure et demie",
+      "anglais": "one-thirty",
+      "audio": {
+        "francais": "assets/audio/vocab_one_thirty_fr.mp3",
+        "anglais": "assets/audio/vocab_one_thirty_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "deux heures moins le quart",
+      "anglais": "quarter to two",
+      "audio": {
+        "francais": "assets/audio/vocab_quarter_to_two_fr.mp3",
+        "anglais": "assets/audio/vocab_quarter_to_two_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "deux heures moins dix",
+      "anglais": "ten to two",
+      "audio": {
+        "francais": "assets/audio/vocab_ten_to_two_fr.mp3",
+        "anglais": "assets/audio/vocab_ten_to_two_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "onze",
+      "anglais": "eleven"
+    },
+    {
+      "kibushi": "",
+      "francais": "douze",
+      "anglais": "twelve"
+    },
+    {
+      "kibushi": "",
+      "francais": "treize",
+      "anglais": "thirteen"
+    },
+    {
+      "kibushi": "",
+      "francais": "quatorze",
+      "anglais": "fourteen"
+    },
+    {
+      "kibushi": "",
+      "francais": "quinze",
+      "anglais": "fifteen"
+    },
+    {
+      "kibushi": "",
+      "francais": "seize",
+      "anglais": "sixteen"
+    },
+    {
+      "kibushi": "",
+      "francais": "dix-sept",
+      "anglais": "seventeen"
+    },
+    {
+      "kibushi": "",
+      "francais": "dix-huit",
+      "anglais": "eighteen"
+    },
+    {
+      "kibushi": "",
+      "francais": "dix-neuf",
+      "anglais": "nineteen"
+    },
+    {
+      "kibushi": "",
+      "francais": "vingt",
+      "anglais": "twenty"
+    },
+    {
+      "kibushi": "",
+      "francais": "trente",
+      "anglais": "thirty"
+    },
+    {
+      "kibushi": "",
+      "francais": "quarante",
+      "anglais": "forty"
+    },
+    {
+      "kibushi": "",
+      "francais": "cinquante",
+      "anglais": "fifty"
+    },
+    {
+      "kibushi": "",
+      "francais": "soixante",
+      "anglais": "sixty"
+    },
+    {
+      "kibushi": "",
+      "francais": "soixante-dix",
+      "anglais": "seventy"
+    },
+    {
+      "kibushi": "",
+      "francais": "quatre-vingt",
+      "anglais": "eighty"
+    },
+    {
+      "kibushi": "",
+      "francais": "quatre-vingt-dix",
+      "anglais": "ninety"
+    },
+    {
+      "kibushi": "",
+      "francais": "cent",
+      "anglais": "one hundred"
+    },
+    {
+      "kibushi": "",
+      "francais": "trois cents",
+      "anglais": "three hundred"
+    },
+    {
+      "kibushi": "",
+      "francais": "mille",
+      "anglais": "one thousand"
+    },
+    {
+      "kibushi": "",
+      "francais": "dix mille",
+      "anglais": "ten thousand"
+    },
+    {
+      "kibushi": "",
+      "francais": "deux cent mille",
+      "anglais": "two hundred thousand"
+    },
+    {
+      "kibushi": "",
+      "francais": "un million",
+      "anglais": "one million"
+    }
+  ]
+}

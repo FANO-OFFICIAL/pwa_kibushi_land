@@ -1,0 +1,125 @@
+{
+    "titre": "Ma famille",
+    "phrases": [
+        {
+            "francais": "Voici mes parents.",
+            "anglais": "These are my parents.",
+            "kibushi": "Reu mamaku ndreka babaku."
+        },
+        {
+            "francais": "Vous avez des frères?",
+            "anglais": "Do you have any brothers?(formal)",
+            "kibushi": "Anau misi zoki?"
+        },
+        {
+            "francais": "Tu as des frères?",
+            "anglais": "Do you have any brothers?(informal)",
+            "kibushi": "Anau misi zoki?"
+        },
+        {
+            "francais": "Voici mon mari.",
+            "anglais": "This is my husband.",
+            "kibushi": "Izi vadiku lalahi."
+        },
+        {
+            "francais": "C’est ma femme.",
+            "anglais": "That’s my wife.",
+            "kibushi": "Izi vadiku viavi ri."
+        },
+        {
+            "francais": "C’est votre sœur?",
+            "anglais": "Is that your sister?(formal)",
+            "kibushi": "Izi zokinau viavi?"
+        },
+        {
+            "francais": "C’est ta sœur?",
+            "anglais": "Is that your sister?(informal)",
+            "kibushi": "Izi zokinau viavi?"
+        },
+        {
+            "francais": "Ce sont tes fils ?",
+            "anglais": "Are those your sons?",
+            "kibushi": "Reu zanakanau lahi ri?"
+        },
+        {
+            "francais": "C'est ton fils.",
+            "anglais": "That’s your son.",
+            "kibushi": "Izi zanakanau lahi ri."
+        },
+        {
+            "francais": "C'est ton fils ?",
+            "anglais": "Is that your son?",
+            "kibushi": "Izi zanakanau lahi?"
+        },
+        {
+            "francais": "C'est ta mère ?",
+            "anglais": "Is this your mother?",
+            "kibushi": "Izi mamanau ?"
+        },
+        {
+            "francais": "Tu as des frères et sœurs ?",
+            "anglais": "Do you have any siblings?",
+            "kibushi": "Anau misi zoki ndreka zandri ?"
+        },
+        {
+            "francais": "C'est ton père ?",
+            "anglais": "Is this your father?",
+            "kibushi": "Izi babanau?"
+        },
+        {
+            "francais": "C'est la fille de Han Hong.",
+            "anglais": "This is Han Hong’s daughter.",
+            "kibushi": "Izi zanaka viavi n'Han Hong."
+        },
+        {
+            "francais": "C'est ta petite sœur ?",
+            "anglais": "Is that your little sister?",
+            "kibushi": "Izi zandrinau viavi ?"
+        },
+        {
+            "francais": "Voici ma sœur et voici mon frère.",
+            "anglais": "This is my sister and this is my brother.",
+            "kibushi": "Izi zokiku viavi ndreka zokiku lahi."
+        },
+        {
+            "francais": "C'est notre grand-mère.",
+            "anglais": "This is our grandmother.",
+            "kibushi": "Izi dadineyi."
+        }
+    ],
+  "dialogues": [
+    {
+  "titre": "Famille - Enfants",
+  "audio": {
+    "francais": "assets/audio/dialogue_famille_enfants_fr.mp3",
+    "anglais": "assets/audio/dialogue_famille_enfants_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Interlocuteur",
+      "francais": "Vous avez des enfants?",
+      "anglais": "Do you have any children?",
+      "kibushi": "Anau misi zanaka ?"
+    },
+    {
+      "personnage": "Répondant",
+      "francais": "Oui, j’ai deux filles.",
+      "anglais": "Yes, I have two daughters.",
+      "kibushi": "Ewa, za misi zanaka viavi aroyi."
+    },
+    {
+      "personnage": "Répondant",
+      "francais": "Voici mes filles. Et vous?",
+      "anglais": "These are my daughters. And you?",
+      "kibushi": "Reu zanakaku viavi. Ɓasi anau ?"
+    },
+    {
+      "personnage": "Répondant",
+      "francais": "J’ai un beau-fils.",
+      "anglais": "I have a stepson.",
+      "kibushi": "Za misi zana lahi kambu areki."
+    }
+  ]
+}
+  ]
+}

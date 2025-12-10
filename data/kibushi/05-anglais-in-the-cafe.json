@@ -1,0 +1,685 @@
+{
+  "titre": "Au café",
+  "phrases": [
+    
+    {
+      "francais": "Vous voulez un café?",
+      "anglais": "Do you want a coffee?",
+      "kibushi": "Anau mila kafe ?"
+    },
+    {
+      "francais": "Il a deux baguettes.",
+      "anglais": "He has two baguettes.",
+      "kibushi": "Izi misi mufu aroyi."
+    },
+    {
+      "francais": "Je voudrais un grand café, s’il vous plaît.",
+      "anglais": "I’d like a large black coffee, please.",
+      "kibushi": "Za mila kafe maru, azafadi."
+    },
+    {
+      "francais": "Je voudrais une tasse de café, s'il vous plaît.",
+      "anglais": "I’d like a cup of coffee, please.",
+      "kibushi": "Za mila dite, azafadi."
+    },
+    {
+      "francais": "C’est tout?",
+      "anglais": "Is that all?",
+      "kibushi": "Tsi mila raha haha ?"
+    },
+    {
+      "francais": "Je prends un croissant.",
+      "anglais": "I’ll have a croissant.",
+      "kibushi": "Za mila croissant areki."
+    },
+    {
+      "francais": "C’est combien?",
+      "anglais": "How much is that?",
+      "kibushi": "Hotrinu raha ti?"
+    },
+    {
+      "francais": "Oui, une pâtisserie danoise, s'il vous plaît.",
+      "anglais": "Yes, a Danish pastry, please.",
+      "kibushi": "Ewa, mukari danoise, azafadi."
+    },
+    {
+      "francais": "Quelque chose d'autre ?",
+      "anglais": "Anything else?",
+      "kibushi": "Tsi mila raha haha?"
+    },
+    {
+      "francais": "Je prendrai un café noir.",
+      "anglais": "I’ll have a black coffee.",
+      "kibushi": "Za mila kafe tsisi siramami."
+    },
+    {
+      "francais": "Je vais prendre des churros.",
+      "anglais": "I’m going to have some churros.",
+      "kibushi": "Za mila churros."
+    },
+    {
+      "francais": "Un café, s'il vous plaît.",
+      "anglais": "A coffee, please.",
+      "kibushi": "Kafe, azafadi."
+    },
+    {
+      "francais": "Un croissant aussi, s'il vous plaît.",
+      "anglais": "A croissant, too, please.",
+      "kibushi": "Croissant areki kua, azafadi."
+    },
+    {
+      "francais": "Je voudrais un café.",
+      "anglais": "I’d like a coffee.",
+      "kibushi": "Za mila kafe."
+    },
+    {
+      "francais": "Un gâteau aussi, s'il vous plaît.",
+      "anglais": "A cake, too, please.",
+      "kibushi": "Mukari kua, azafadi."
+    },
+    {
+      "francais": "Je prendrai un thé noir.",
+      "anglais": "I’ll have a black tea.",
+      "kibushi": "Za mila dite mainti."
+    },
+    {
+      "francais": "Avez-vous des fèves écrasées ?",
+      "anglais": "Do you have mashed fava beans?",
+      "kibushi": "Anau misi fèves?"
+    },
+    {
+      "francais": "Combien est l'addition ?",
+      "anglais": "How much is the bill?",
+      "kibushi": "Hotrinu raha ti?"
+    }
+  ],
+  "dialogues": [
+    {
+  "titre": "Au café",
+  "audio": {
+    "francais": "assets/audio/dialogue_cafe_fr.mp3",
+    "anglais": "assets/audio/dialogue_cafe_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Bonjour. Je voudrais un café au lait, s’il vous plaît.",
+      "anglais": "Hello. I would like coffee with milk, please.",
+      "kibushi": "Salama. Za mila kafe misi rununu, azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "C’est tout madame?",
+      "anglais": "Is that all, madam?",
+      "kibushi": "Tsi mila raha hafa, viavi ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Vous avez des croissants?",
+      "anglais": "Do you have any croissants?",
+      "kibushi": "Anau misi croissant ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, bien sûr.",
+      "anglais": "Yes, certainly.",
+      "kibushi": "Ewa, misi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Alors deux croissants. C’est combien?",
+      "anglais": "Two croissants, then. How much is that?",
+      "kibushi": "Ɓasi amia croissant aroyi. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quatre euros, s’il vous plaît.",
+      "anglais": "Four euros, please.",
+      "kibushi": "Ero efatra, azafadi."
+    }
+  ]
+},
+{
+  "titre": "Au thé",
+  "audio": {
+    "francais": "assets/audio/dialogue_the_fr.mp3",
+    "anglais": "assets/audio/dialogue_the_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Je voudrais une tasse de thé avec du lait, s'il vous plaît.",
+      "anglais": "I would like a cup of tea with milk, please.",
+      "kibushi": "Za mila dite misi rununu, azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quelque chose d'autre ?",
+      "anglais": "Anything else?",
+      "kibushi": "Tsi mila raha hafa ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Avez-vous du gâteau ?",
+      "anglais": "Do you have any cake?",
+      "kibushi": "Anau misi mukari ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, bien sûr.",
+      "anglais": "Yes, certainly.",
+      "kibushi": "Ewa, misi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Merci. Combien ça coûte ?",
+      "anglais": "Thank you. How much is that?",
+      "kibushi": "Misotra. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quatre euros, s'il vous plaît.",
+      "anglais": "Four euros, please.",
+      "kibushi": "Ero efatra, azafadi."
+    }
+  ]
+},
+{
+  "titre": "Café au lait et churros",
+  "audio": {
+    "francais": "assets/audio/dialogue_cafe_churros_fr.mp3",
+    "anglais": "assets/audio/dialogue_cafe_churros_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Je prendrai un café au lait, s'il vous plaît.",
+      "anglais": "Hello. I’ll have coffee with milk, please.",
+      "kibushi": "Salama. Za mila kafe misi rununu, azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "C'est tout ?",
+      "anglais": "Is that all?",
+      "kibushi": "Tsi mila raha hafa ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Avez-vous des churros ?",
+      "anglais": "Do you have any churros?",
+      "kibushi": "Anau misi churros ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, monsieur.",
+      "anglais": "Yes, sir.",
+      "kibushi": "Ewa, lahi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Merci. Combien ça coûte ?",
+      "anglais": "Thank you. How much is that?",
+      "kibushi": "Misotra. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quatre euros, s'il vous plaît.",
+      "anglais": "Four euros, please.",
+      "kibushi": "Ero efatra, azafadi."
+    }
+  ]
+},
+{
+  "titre": "Cappuccino et croissant",
+  "audio": {
+    "francais": "assets/audio/dialogue_cappuccino_croissant_fr.mp3",
+    "anglais": "assets/audio/dialogue_cappuccino_croissant_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Je voudrais un cappuccino, s'il vous plaît.",
+      "anglais": "I’d like a cappuccino, please.",
+      "kibushi": "Za mila cappuccino, azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quelque chose d'autre, monsieur ?",
+      "anglais": "Anything else, sir?",
+      "kibushi": "Tsi mila raha hafa, lahi ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Avez-vous des croissants ?",
+      "anglais": "Do you have any croissants?",
+      "kibushi": "Anau misi croissant ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, bien sûr.",
+      "anglais": "Yes, certainly.",
+      "kibushi": "Ewa, misi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Je prendrai un croissant, alors. Combien ça coûte ?",
+      "anglais": "I’ll have a croissant, then. How much is that?",
+      "kibushi": "Ɓasi za mila croissant areki. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quatre euros, s'il vous plaît.",
+      "anglais": "Four euros, please.",
+      "kibushi": "Ero efatra, azafadi."
+    }
+  ]
+},
+{
+  "titre": "Café et gâteau",
+  "audio": {
+    "francais": "assets/audio/dialogue_cafe_gateau_fr.mp3",
+    "anglais": "assets/audio/dialogue_cafe_gateau_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Je voudrais un café.",
+      "anglais": "I’d like a coffee.",
+      "kibushi": "Za mila kafe."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quelque chose d'autre ?",
+      "anglais": "Anything else?",
+      "kibushi": "Tsi mila raha hafa, lahi ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Avez-vous des gâteaux ?",
+      "anglais": "Do you have any cakes?",
+      "kibushi": "Anau misi mukari ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, bien sûr.",
+      "anglais": "Yes, certainly.",
+      "kibushi": "Ewa, misi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Un gâteau aussi, s'il vous plaît. Combien ça coûte ?",
+      "anglais": "A cake, too, please. How much is that?",
+      "kibushi": "Amia mukari kua, azafadi. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Cela fait 50 yuans… merci.",
+      "anglais": "That’s 50 yuan…thank you.",
+      "kibushi": "yuans dimiampulu, misotra."
+    }
+  ]
+},
+{
+  "titre": "Café et gâteau (yens)",
+  "audio": {
+    "francais": "assets/audio/dialogue_cafe_gateau_yen_fr.mp3",
+    "anglais": "assets/audio/dialogue_cafe_gateau_yen_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Un café, s'il vous plaît.",
+      "anglais": "A coffee, please.",
+      "kibushi": "za mila kafe, azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quelque chose d'autre ?",
+      "anglais": "Anything else?",
+      "kibushi": "Tsi mila raha hafa ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Avez-vous des gâteaux ?",
+      "anglais": "Do you have any cakes?",
+      "kibushi": "Anau misi mukari?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, bien sûr.",
+      "anglais": "Yes, certainly.",
+      "kibushi": "Ewa, misi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Alors, je voudrais un gâteau. Combien ça coûte ?",
+      "anglais": "Then I’d like a cake. How much is that?",
+      "kibushi": "Ɓasi za mila mukari areki. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Cela fait 800 yens.",
+      "anglais": "That’s 800 yen.",
+      "kibushi": "Yens valu zatu."
+    }
+  ]
+},
+{
+  "titre": "Café au lait et basbousa",
+  "audio": {
+    "francais": "assets/audio/dialogue_cafe_basbousa_fr.mp3",
+    "anglais": "assets/audio/dialogue_cafe_basbousa_en.mp3"
+  },
+  "conversation": [
+    {
+      "personnage": "Client",
+      "francais": "Je prendrai un café au lait, s'il vous plaît.",
+      "anglais": "I’ll have a coffee with milk, please.",
+      "kibushi": "Za mila kafe misi rununu, azafadi."
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Quelque chose d'autre ?",
+      "anglais": "Anything else?",
+      "kibushi": "Tsi mila raha hafa ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Avez-vous de la basbousa [gâteau à la semoule] ?",
+      "anglais": "Do you have basboosa[semolina cake]?",
+      "kibushi": "Anau misi basbousa ?"
+    },
+    {
+      "personnage": "Client",
+      "francais": "Oui, nous en avons.",
+      "anglais": "Yes, we do.",
+      "kibushi": "Ewa, misi."
+    },
+    {
+      "personnage": "Client",
+      "francais": "Merci. Combien est l'addition, s'il vous plaît ?",
+      "anglais": "Thank you. How much is the bill, please?",
+      "kibushi": "Misotra. Hotrinu raha ti ?"
+    },
+    {
+      "personnage": "Serveur",
+      "francais": "Neuf livres, s'il vous plaît.",
+      "anglais": "Nine pounds, please.",
+      "kibushi": "Livres sivi, azafadi."
+    }
+  ]
+}
+  ],
+  "vocabulaire": [
+    {
+      "kibushi": "Kafe Arabu",
+      "francais": "Café arabe",
+      "anglais": "Arab café",
+      "audio": {
+        "francais": "assets/audio/vocab_cafe_arabe_fr.mp3",
+        "anglais": "assets/audio/vocab_cafe_arabe_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Kafe misi nana",
+      "francais": "Thé à la menthe",
+      "anglais": "mint tea",
+      "audio": {
+        "francais": "assets/audio/vocab_mint_tea_fr.mp3",
+        "anglais": "assets/audio/vocab_mint_tea_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Dite maitsu",
+      "francais": "Thé vert",
+      "anglais": "green tea",
+      "audio": {
+        "francais": "assets/audio/vocab_green_tea_fr.mp3",
+        "anglais": "assets/audio/vocab_green_tea_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Dite mena",
+      "francais": "Thé rouge",
+      "anglais": "red tea",
+      "audio": {
+        "francais": "assets/audio/vocab_red_tea_fr.mp3",
+        "anglais": "assets/audio/vocab_red_tea_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Dite ãfu",
+      "francais": "Thé au jasmin",
+      "anglais": "jasmine tea",
+      "audio": {
+        "francais": "assets/audio/vocab_jasmine_tea_fr.mp3",
+        "anglais": "assets/audio/vocab_jasmine_tea_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Kafe mainti keli",
+      "francais": "Petit café noir",
+      "anglais": "small, black coffee",
+      "audio": {
+        "francais": "assets/audio/vocab_small_black_coffee_fr.mp3",
+        "anglais": "assets/audio/vocab_small_black_coffee_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Expresso misi rununu keli",
+      "francais": "Expresso avec un peu de lait",
+      "anglais": "espresso with a little milk",
+      "audio": {
+        "francais": "assets/audio/vocab_espresso_milk_fr.mp3",
+        "anglais": "assets/audio/vocab_espresso_milk_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "ranumeyi",
+      "francais": "Tisane",
+      "anglais": "herbal tea",
+      "audio": {
+        "francais": "assets/audio/vocab_herbal_tea_fr.mp3",
+        "anglais": "assets/audio/vocab_herbal_tea_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "croissant",
+      "francais": "Croissant",
+      "anglais": "croissant",
+      "audio": {
+        "francais": "assets/audio/vocab_croissant_fr.mp3",
+        "anglais": "assets/audio/vocab_croissant_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Crème pâtissière",
+      "anglais": "custard cream",
+      "audio": {
+        "francais": "assets/audio/vocab_custard_fr.mp3",
+        "anglais": "assets/audio/vocab_custard_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "Churros",
+      "anglais": "churros",
+      "audio": {
+        "francais": "assets/audio/vocab_churros_fr.mp3",
+        "anglais": "assets/audio/vocab_churros_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Shokola mafana",
+      "francais": "Chocolat chaud",
+      "anglais": "hot chocolate",
+      "audio": {
+        "francais": "assets/audio/vocab_hot_chocolate_fr.mp3",
+        "anglais": "assets/audio/vocab_hot_chocolate_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "expresso",
+      "francais": "Expresso",
+      "anglais": "espresso",
+      "audio": {
+        "francais": "assets/audio/vocab_espresso_fr.mp3",
+        "anglais": "assets/audio/vocab_espresso_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Dite misi tsoha",
+      "francais": "Thé avec du citron",
+      "anglais": "tea with lemon",
+      "audio": {
+        "francais": "assets/audio/vocab_tea_lemon_fr.mp3",
+        "anglais": "assets/audio/vocab_tea_lemon_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Kafe tsisi caféine",
+      "francais": "Café décaféiné",
+      "anglais": "decaffeinated coffee",
+      "audio": {
+        "francais": "assets/audio/vocab_decaf_fr.mp3",
+        "anglais": "assets/audio/vocab_decaf_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Mufu meyi misi samuli",
+      "francais": "Toast avec du beurre",
+      "anglais": "toast with butter",
+      "audio": {
+        "francais": "assets/audio/vocab_toast_fr.mp3",
+        "anglais": "assets/audio/vocab_toast_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "jam",
+      "anglais": "la confiture",
+      "audio": {
+        "francais": "assets/audio/vocab_jam_fr.mp3",
+        "anglais": "assets/audio/vocab_jam_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Kafe",
+      "francais": "Petit café noir / le café / le café crème / le grand café / café au lait",
+      "anglais": "small black coffee / coffee / coffee with frothy milk / large black coffee / (white) coffee",
+      "audio": {
+        "francais": "assets/audio/vocab_coffee_fr.mp3",
+        "anglais": "assets/audio/vocab_coffee_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Siramami",
+      "francais": "le sucre",
+      "anglais": "sugar",
+      "audio": {
+        "francais": "assets/audio/vocab_sugar_fr.mp3",
+        "anglais": "assets/audio/vocab_sugar_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Dite",
+      "francais": "le thé",
+      "anglais": "black tea",
+      "audio": {
+        "francais": "assets/audio/vocab_black_tea_fr.mp3",
+        "anglais": "assets/audio/vocab_black_tea_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Dite misi rununu",
+      "francais": "le thé au lait",
+      "anglais": "tea with milk",
+      "audio": {
+        "francais": "assets/audio/vocab_tea_milk_fr.mp3",
+        "anglais": "assets/audio/vocab_tea_milk_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "Mufu",
+      "francais": "le pain",
+      "anglais": "bread",
+      "audio": {
+        "francais": "assets/audio/vocab_bread_fr.mp3",
+        "anglais": "assets/audio/vocab_bread_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "pâtisserie",
+      "anglais": "pastry",
+      "audio": {
+        "francais": "assets/audio/vocab_pastry_fr.mp3",
+        "anglais": "assets/audio/vocab_pastry_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "sandwich",
+      "francais": "sandwich",
+      "anglais": "sandwich",
+      "audio": {
+        "francais": "assets/audio/vocab_sandwich_fr.mp3",
+        "anglais": "assets/audio/vocab_sandwich_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "rununu",
+      "francais": "le lait",
+      "anglais": "milk",
+      "audio": {
+        "francais": "assets/audio/vocab_milk_fr.mp3",
+        "anglais": "assets/audio/vocab_milk_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "",
+      "francais": "le citron",
+      "anglais": "lemon",
+      "audio": {
+        "francais": "assets/audio/vocab_lemon_fr.mp3",
+        "anglais": "assets/audio/vocab_lemon_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "kibushi": "mukari",
+      "francais": "part de gâteau",
+      "anglais": "slice of cake",
+      "audio": {
+        "francais": "assets/audio/vocab_slice_cake_fr.mp3",
+        "anglais": "assets/audio/vocab_slice_cake_en.mp3"
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}
