@@ -1,12 +1,9 @@
-// Détermine le chemin de base pour le Service Worker, pour qu'il fonctionne
-// à la fois sur localhost et sur GitHub Pages.
-const basePath =
+// Détermine le chemin pour le script Service Worker de manière dynamique
+const swPath =
   window.location.hostname === "localhost" ||
   window.location.hostname === "127.0.0.1"
-    ? "/"
-    : "/pwa_kibushi_land/";
-
-const swPath = `${basePath}sw.js`;
+    ? "sw.js"
+    : `${window.location.pathname.replace(/\/$/, "")}sw.js`;
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
