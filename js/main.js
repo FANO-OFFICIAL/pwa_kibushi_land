@@ -3,7 +3,7 @@ const swPath =
   window.location.hostname === "localhost" ||
   window.location.hostname === "127.0.0.1"
     ? "sw.js"
-    : `${window.location.pathname.replace(/\/$/, "")}sw.js`;
+    : `${window.location.pathname.replace(/\/$/, "")}/sw.js`;
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
