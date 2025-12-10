@@ -1,6 +1,7 @@
 const CACHE_NAME = "kibushi-land-cache-v1";
 const URLS_TO_CACHE = [
   // Pages et fichiers de configuration de base
+  "./",
   "./index.html",
   "./manifest.json",
   "./favicon.png",

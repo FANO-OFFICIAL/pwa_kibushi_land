@@ -1,8 +1,8 @@
 {
   "name": "Kibushi Land",
   "short_name": "Kibushi Land",
-  "scope": ".",
-  "start_url": ".",
+  "scope": "/pwa_kibushi_land/",
+  "start_url": "/pwa_kibushi_land/",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#3367D6",
