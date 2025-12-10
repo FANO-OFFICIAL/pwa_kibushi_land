@@ -1,8 +1,10 @@
-// Détermine le chemin de base pour le Service Worker, pour qu'il fonctionne 
+// Détermine le chemin de base pour le Service Worker, pour qu'il fonctionne
 // à la fois sur localhost et sur GitHub Pages.
-const basePath = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
-               ? '/' 
-               : '/pwa_apprendre_le_kibushi/';
+const basePath =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1"
+    ? "/"
+    : "/pwa_kibushi_land/";
 
 const swPath = `${basePath}sw.js`;
 
