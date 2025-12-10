@@ -1,82 +1,110 @@
+const CACHE_NAME = 'kibushi-land-cache-v1';
 const URLS_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/js/app.js",
-  "/js/router.js",
-  "/js/config.js",
-  "/views/home-view.js",
-  "/views/themes-view.js",
-  "/views/phrases-view.js",
-  "/views/vocabulaire-view.js",
-  "/views/dialogues-view.js",
-  "/views/category-view.js",
-  "/components/app-header.js",
-  "/components/app-footer.js",
-  "/tailwind.css",
+  // Pages et fichiers de configuration de base
+  './',
+  './index.html',
+  './manifest.json',
+  './favicon.png',
+
+  // Styles
+  './tailwind.css',
+  './css/custom.css',
+
+  // Scripts JavaScript
+  './js/app.js',
+  './js/config.js',
+  './js/main.js',
+  './js/router.js',
+  './components/app-footer.js',
+  './components/app-header.js',
+  './views/category-view.js',
+  './views/dialogues-view.js',
+  './views/home-view.js',
+  './views/parametres-view.js',
+  './views/phrases-view.js',
+  './views/themes-view.js',
+  './views/vocabulaire-view.js',
+
+  // Icônes pour la PWA
+  './images/icons/icon-72x72.png',
+  './images/icons/icon-96x96.png',
+  './images/icons/icon-128x128.png',
+  './images/icons/icon-144x144.png',
+  './images/icons/icon-152x152.png',
+  './images/icons/icon-192x192.png',
+  './images/icons/icon-384x384.png',
+  './images/icons/icon-512x512.png',
+
+  // Images par défaut
+  './assets/images/illustration_default.jpg',
+  './assets/images/illustration_default_9_16.jpg'
 ];
 
-// Installation du Service Worker
-self.addEventListener("install", (event) => {
+// Étape d'installation : mise en cache des ressources de l'application
+self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log("Cache ouvert");
-      return cache.addAll(URLS_TO_CACHE);
-    })
+    caches.open(CACHE_NAME)
+      .then(cache => {
+        console.log('Service Worker : Mise en cache des fichiers');
+        return cache.addAll(URLS_TO_CACHE);
+      })
+      .catch(error => {
+        console.error('Échec de la mise en cache lors de l\'installation :', error);
+      })
   );
 });
 
-// Activation du Service Worker
-self.addEventListener("activate", (event) => {
-  const cacheWhitelist = [CACHE_NAME];
+// Étape d'activation : nettoyage des anciens caches
+self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
+    caches.keys().then(cacheNames => {
       return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheWhitelist.indexOf(cacheName) === -1) {
+        cacheNames.map(cacheName => {
+          if (cacheName !== CACHE_NAME) {
+            console.log('Service Worker : Suppression de l\'ancien cache', cacheName);
             return caches.delete(cacheName);
           }
         })
       );
     })
   );
+  return self.clients.claim();
 });
 
-// Interception des requêtes réseau
-self.addEventListener("fetch", (event) => {
-  const url = new URL(event.request.url);
-  const isSameOrigin = url.origin === self.location.origin;
-  const isFontRequest =
-    event.request.url.includes("fonts.googleapis.com") ||
-    event.request.url.includes("fonts.gstatic.com");
-
-  if (isSameOrigin && !isFontRequest) {
-    event.respondWith(
-      caches.match(event.request).then((response) => {
-        // Si la ressource est dans le cache, on la retourne
+// Étape de fetch : servir les ressources depuis le cache ou le réseau
+self.addEventListener('fetch', event => {
+  // Stratégie "Cache First" pour toutes les requêtes
+  event.respondWith(
+    caches.match(event.request)
+      .then(response => {
+        // Si la réponse est dans le cache, on la retourne
         if (response) {
           return response;
         }
-        // Sinon, on effectue la requête réseau et on met en cache
-        return fetch(event.request).then((response) => {
-          // Mettre en cache seulement les ressources réussies
-          if (
-            !response ||
-            response.status !== 200 ||
-            response.type !== "basic"
-          ) {
-            return response;
+
+        // Sinon, on va sur le réseau
+        return fetch(event.request).then(
+          networkResponse => {
+            // On ne met en cache que les requêtes valides
+            if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+              return networkResponse;
+            }
+            
+            // On clone la réponse pour la mettre en cache et la retourner au navigateur
+            const responseToCache = networkResponse.clone();
+            
+            caches.open(CACHE_NAME)
+              .then(cache => {
+                cache.put(event.request, responseToCache);
+              });
+              
+            return networkResponse;
           }
-          const responseToCache = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-          return response;
-        });
+        );
       })
-    );
-  } else {
-    // Pour les ressources externes (comme les polices), aller directement au réseau
-    event.respondWith(fetch(event.request));
-  }
+      .catch(error => {
+        console.error('Service Worker : Erreur lors du fetch', error);
+        // Potentiellement retourner une page de fallback hors-ligne ici
+      })
+  );
 });
