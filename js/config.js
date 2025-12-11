@@ -1,12 +1,12 @@
 export const LANGUAGES = {
-  malagasy: { name: "Malagasy", flag: "🇲🇬" },
-  sakalava: { name: "Sakalava", flag: "🇲🇬" },
-  kibushi: { name: "Kibushi", flag: "🇲🇬" },
-  allemand: { name: "Allemand", flag: "🇩🇪" },
-  anglais: { name: "Anglais", flag: "🇬🇧" },
-  espagnol: { name: "Espagnol", flag: "🇪🇸" },
-  italien: { name: "Italien", flag: "🇮🇹" },
-  japonais: { name: "Japonais", flag: "🇯🇵" },
+  malagasy: { name: "Malagasy", flag: "flag-icon flag-icon-mg" },
+  sakalava: { name: "Sakalava", flag: "flag-icon flag-icon-mg" },
+  kibushi: { name: "Kibushi", flag: "flag-icon flag-icon-mg" },
+  allemand: { name: "Allemand", flag: "flag-icon flag-icon-de" },
+  anglais: { name: "Anglais", flag: "flag-icon flag-icon-gb" },
+  espagnol: { name: "Espagnol", flag: "flag-icon flag-icon-es" },
+  italien: { name: "Italien", flag: "flag-icon flag-icon-it" },
+  japonais: { name: "Japonais", flag: "flag-icon flag-icon-jp" },
 };
 
 export const THEMES = [

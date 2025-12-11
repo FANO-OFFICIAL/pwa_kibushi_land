@@ -12,7 +12,7 @@ export default {
         href="#/themes?lang=${key}"
         class="flex w-full cursor-pointer items-center justify-start overflow-hidden rounded-xl h-auto p-5 bg-white dark:bg-background-dark/50 border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-colors duration-200 gap-4"
       >
-        <span class="text-2xl emoji">${lang.flag}</span>
+        <span class="${lang.flag} text-2xl"></span>
         <span
           class="flex-grow text-left text-base font-medium text-[#111318] dark:text-white"
           >${lang.name}</span
