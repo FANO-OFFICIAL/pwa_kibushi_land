@@ -78,8 +78,3 @@ body {
   left: 50%; /* Centrer horizontalement */
   transform: translateX(-50%); /* Ajustement pour un centrage parfait */
 }
-
-.emoji {
-  font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji",
-    "Noto Color Emoji", "Twemoji", sans-serif;
-}
