@@ -126,7 +126,6 @@ export default class Router {
     if (footer) {
       footer.setAttribute("data-active-page", activePage);
       footer.classList.remove("hidden"); // Show footer on all pages
-      body.classList.add("pb-[56px]"); // Add padding to body
     }
 
     // Dynamic Header Logic
