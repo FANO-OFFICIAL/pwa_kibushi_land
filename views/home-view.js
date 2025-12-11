@@ -1,4 +1,4 @@
-import { LANGUAGES } from '../js/config.js';
+import { LANGUAGES } from "../js/config.js";
 
 export default {
   title: "Accueil",
@@ -6,12 +6,13 @@ export default {
     // Generate language links dynamically
     const languagesHtml = Object.entries(LANGUAGES)
       .sort((a, b) => a[1].name.localeCompare(b[1].name))
-      .map(([key, lang]) => `
+      .map(
+        ([key, lang]) => `
       <a
         href="#/themes?lang=${key}"
         class="flex w-full cursor-pointer items-center justify-start overflow-hidden rounded-xl h-auto p-5 bg-white dark:bg-background-dark/50 border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-colors duration-200 gap-4"
       >
-        <span class="text-2xl">${lang.flag}</span>
+        <span class="text-2xl emoji">${lang.flag}</span>
         <span
           class="flex-grow text-left text-base font-medium text-[#111318] dark:text-white"
           >${lang.name}</span
@@ -21,7 +22,9 @@ export default {
           >arrow_forward_ios</span
         >
       </a>
-    `).join('');
+    `
+      )
+      .join("");
 
     return `
       <!-- Content -->
@@ -90,6 +93,6 @@ export default {
     `;
   },
   afterRender: async () => {
-      // Any DOM manipulation after render
-  }
+    // Any DOM manipulation after render
+  },
 };

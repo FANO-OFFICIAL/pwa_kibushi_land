@@ -64,15 +64,22 @@ body {
 }
 
 .active-nav-item::after {
-  content: '';
+  content: "";
   display: block;
   width: 24px; /* Largeur de l'indicateur */
   height: 2px; /* Hauteur de l'indicateur */
-  background-color: rgb(43 108 238); /* Couleur primaire (Tailwind's blue-600) */
+  background-color: rgb(
+    43 108 238
+  ); /* Couleur primaire (Tailwind's blue-600) */
   border-radius: 1px;
   margin-top: 4px; /* Espace entre le texte et l'indicateur */
   position: absolute; /* Positionnement absolu par rapport à l'élément parent */
   bottom: 0; /* Aligner en bas */
   left: 50%; /* Centrer horizontalement */
   transform: translateX(-50%); /* Ajustement pour un centrage parfait */
+}
+
+.emoji {
+  font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji",
+    "Noto Color Emoji", "Twemoji", sans-serif;
 }
