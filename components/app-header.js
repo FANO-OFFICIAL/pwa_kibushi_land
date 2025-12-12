@@ -49,7 +49,7 @@ class AppHeader extends HTMLElement {
           ${title}
         </h1>
         <div class="size-10 shrink-0 flex items-center justify-center text-lg">
-          ${langFlag}
+          ${langFlag ? `<span class="${langFlag}"></span>` : ''}
         </div>
       </header>
     `;
