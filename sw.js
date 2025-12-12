@@ -1,4 +1,4 @@
-const CACHE_NAME = "kibushi-land-cache-v1";
+const CACHE_NAME = "kibushi-land-cache-v2";
 const URLS_TO_CACHE = [
   // Pages et fichiers de configuration de base
   "./",
@@ -57,6 +57,14 @@ self.addEventListener("install", (event) => {
       }
     })()
   );
+});
+
+// Ajout du listener pour piloter le skipWaiting
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.action === "SKIP_WAITING") {
+    console.log("Service Worker : skipWaiting activé");
+    self.skipWaiting();
+  }
 });
 
 // Étape d'activation : nettoyage des anciens caches
