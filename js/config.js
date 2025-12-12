@@ -9,6 +9,7 @@ export const LANGUAGES = {
   espagnol: { name: "Espagnol", flag: "fi fi-es" },
   italien: { name: "Italien", flag: "fi fi-it" },
   japonais: { name: "Japonais", flag: "fi fi-jp" },
+  portugais_bresil: { name: "Portugais (Brésil)", flag: "fi fi-br" },
 };
 
 export const THEMES = [

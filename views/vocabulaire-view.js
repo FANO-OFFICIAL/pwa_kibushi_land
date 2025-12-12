@@ -207,13 +207,13 @@ export default {
                    data-audio-anglais="${audioEn}">${nativeText}</p>
                 <div class="flex items-center gap-2">
                   <button onclick="switchVocabLanguage(this, 'native')" class="flex h-6 w-6 items-center justify-center rounded-full text-base ring-2 ring-primary" data-lang="native">
-                    ${langInfo.flag}
+                    <span class="${langInfo.flag}"></span>
                   </button>
                   <button onclick="switchVocabLanguage(this, 'francais')" class="flex h-6 w-6 items-center justify-center rounded-full text-base opacity-50" data-lang="francais">
-                    🇫🇷
+                    <span class="fi fi-fr"></span>
                   </button>
                   <button onclick="switchVocabLanguage(this, 'anglais')" class="flex h-6 w-6 items-center justify-center rounded-full text-base opacity-50" data-lang="anglais">
-                    🇬🇧
+                    <span class="fi fi-gb"></span>
                   </button>
                 </div>
               </div>
