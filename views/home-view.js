@@ -2,8 +2,11 @@ import { LANGUAGES } from "../js/config.js";
 
 export default {
   title: "Accueil",
+  // Garde une référence à l'handler pour pouvoir le supprimer plus tard
+  updateAvailableHandler: null,
+
   render: async () => {
-    // Generate language links dynamically
+    // ... (le reste de la fonction render reste inchangé)
     const languagesHtml = Object.entries(LANGUAGES)
       .sort((a, b) => a[1].name.localeCompare(b[1].name))
       .map(
@@ -71,6 +74,7 @@ export default {
         <div
           class="relative z-10 flex flex-col items-center justify-center w-full max-w-md flex-1"
         >
+          <!-- Le bandeau de mise à jour sera inséré ici par JavaScript -->
           <div class="text-center w-full pb-8">
             <h2
               class="text-[#111318] dark:text-white tracking-tight text-3xl font-bold leading-tight"
@@ -93,6 +97,48 @@ export default {
     `;
   },
   afterRender: async () => {
-    // Any DOM manipulation after render
+    // Supprime l'ancien écouteur s'il existe pour éviter les doublons
+    if (this.updateAvailableHandler) {
+      window.removeEventListener("updateAvailable", this.updateAvailableHandler);
+    }
+
+    this.updateAvailableHandler = (event) => {
+      const { newWorker } = event.detail;
+      const container = document.querySelector(".relative.z-10");
+      const welcomeBox = document.querySelector(".text-center.w-full.pb-8");
+
+      if (container && welcomeBox) {
+        // Crée le bandeau
+        const banner = document.createElement("div");
+        banner.className =
+          "w-full bg-blue-100 dark:bg-blue-900/50 border-l-4 border-blue-500 text-blue-700 dark:text-blue-200 p-4 rounded-lg mb-8";
+        banner.innerHTML = `
+          <div class="flex items-center">
+            <div class="py-1">
+              <span class="material-symbols-outlined">
+                update
+              </span>
+            </div>
+            <div class="flex-grow ml-3">
+              <p class="font-bold text-sm">Mise à jour disponible</p>
+              <p class="text-xs">Une nouvelle version de l'application est prête.</p>
+            </div>
+            <button id="home-update-button" class="ml-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md text-sm">
+              Installer
+            </button>
+          </div>
+        `;
+
+        // Insère le bandeau avant le message de bienvenue
+        container.insertBefore(banner, welcomeBox);
+
+        // Ajoute l'événement au bouton
+        document.getElementById("home-update-button").addEventListener("click", () => {
+          newWorker.postMessage({ action: "SKIP_WAITING" });
+        });
+      }
+    };
+
+    window.addEventListener("updateAvailable", this.updateAvailableHandler);
   },
 };
