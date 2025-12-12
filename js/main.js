@@ -34,7 +34,7 @@ if ("serviceWorker" in navigator) {
 
   window.addEventListener("load", () => {
     navigator.serviceWorker
-      .register(swPath)
+      .register(`${swPath}?v=${new Date().getTime()}`)
       .then((reg) => {
         console.log("Service Worker enregistré. Portée:", reg.scope);
 
