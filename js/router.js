@@ -217,6 +217,14 @@ export default class Router {
           await route.afterRender(params);
         }
 
+        // Send page_view to Google Analytics
+        if (window.gtag) {
+          window.gtag('event', 'page_view', {
+            page_path: fragment,
+            page_title: route.title || 'Kibushi Land', // Use route title if available
+          });
+        }
+
         // Scroll to top
         window.scrollTo(0, 0);
       };
