@@ -1,0 +1,63 @@
+﻿# Résumé du Projet PWA Apprendre le Kibushi
+
+## Vue d'ensemble
+Application web progressive (PWA) éducative pour apprendre des langues africaines (Kibushi, Sakalava, etc.) via phrases, dialogues et thèmes organisés.
+
+## Technologies utilisées
+- **Architecture** : SPA légère (Single Page Application) avec routage Hash
+- **Styling** : Tailwind CSS
+- **Icônes** : Google Material Symbols
+- **Police** : Lexend (Google Fonts)
+- **PWA** : Service Worker, Manifest, offline capability
+- **Persistance** : localStorage pour progrès et paramètres utilisateur
+
+## Langages informatiques
+- **JavaScript ES6** : Modules, classes, SPA vanilla
+- **HTML5** : Structure et Web Components
+- **CSS3** : Tailwind utility classes + dark mode
+- **JSON** : Données des phrases et dialogues
+
+## Fonctionnalités implémentées
+- Navigation SPA avec router personnalisé
+- Vues : Accueil, Thèmes, Catégorie, Phrases, Vocabulaire, Dialogues, Paramètres
+- PWA installable avec mode offline
+- Mode sombre/clair/automatique
+- Sons/audio pour phrases et dialogues
+- Suivi des progrès (maîtrise)
+- Paramètres : thème, audio, taille police, reset données
+- Back navigation avec historique
+
+## Fichiers les plus importants
+- index.html : Shell SPA unique
+- js/app.js : Point d'entrée, initialisation router
+- js/router.js : Gestion navigation et active pages
+- views/home-view.js : Page accueil (choix langue)
+- views/themes-view.js : Liste thèmes par langue
+- views/phrases-view.js : Affichage phrases avec audio
+- views/dialogues-view.js : Dialogues avec audio/language switch
+- components/app-header.js : Header avec back button
+- components/app-footer.js : Navigation en bas
+- views/parametres-view.js : Paramètres utilisateur
+- manifest.json : Configuration PWA
+- sw.js : Service Worker offline
+
+## Dossiers les plus importants
+- js/ : Code JavaScript (app, router, config)
+- views/ : Composants vues SPA
+- components/ : Web Components réutilisables
+- data/ : Données JSON par langue/thème
+- doc/ : Documentation (ARCHITECTURE_SPA.md)
+
+## Flux utilisateur principal
+1. Choix langue sur accueil
+2. Sélection thème
+3. Navigation catégories (phrases/dialogues)
+4. Apprentissage interactif (audio, quiz maîtrise)
+5. Persistance progrès et paramètres
+
+## Architecture
+- VANILLA JS (pas de React/Vue/Angular)
+- Modules ES6 pour organisation
+- Web Components customisés
+- localStorage pour données utilisateur
+- PWA pour expérience app-like
