@@ -2,6 +2,7 @@ export const LANGUAGES = {
   malagasy: { name: "Malagasy", flag: "fi fi-mg" },
   sakalava: { name: "Sakalava", flag: "fi fi-mg" },
   kibushi: { name: "Kibushi", flag: "fi fi-mg" },
+  shimaore: { name: "Shimaore", flag: "fi fi-yt" },
   allemand: { name: "Allemand", flag: "fi fi-de" },
   anglais: { name: "Anglais", flag: "fi fi-gb" },
   espagnol: { name: "Espagnol", flag: "fi fi-es" },
