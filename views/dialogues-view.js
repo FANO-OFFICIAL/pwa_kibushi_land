@@ -189,9 +189,22 @@ function resetAudioButton(button) {
   button.dataset.audioPlaying = "false";
 }
 
+function stopAllOtherAudioButtons(currentButton) {
+  // Arrêter tous les boutons audio sauf le current
+  document.querySelectorAll(".audio-section button").forEach((btn) => {
+    if (btn !== currentButton && btn.audioInstance) {
+      btn.audioInstance.pause();
+      resetAudioButton(btn);
+    }
+  });
+}
+
 window.playDialogueAudio = function (button, idx) {
   const dialogue = currentData[idx];
   if (!dialogue) return;
+
+  // Arrêter tous les autres audios en cours
+  stopAllOtherAudioButtons(button);
 
   const card = button.closest(".dialogue-card");
   const currentLang = card.dataset.currentLang;

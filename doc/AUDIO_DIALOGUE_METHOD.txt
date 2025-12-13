@@ -55,7 +55,25 @@ if (audioButton && audioButton.audioInstance) {
 }
 ```
 
-### 5. Gestion des erreurs et reset
+### 5. Arrêt automatique entre dialogues
+**Fonction :** `stopAllOtherAudioButtons(currentButton)`
+
+```javascript
+function stopAllOtherAudioButtons(currentButton) {
+  document.querySelectorAll(".audio-section button").forEach((btn) => {
+    if (btn !== currentButton && btn.audioInstance) {
+      btn.audioInstance.pause();
+      resetAudioButton(btn);
+    }
+  });
+}
+```
+
+- Appelée dans `playDialogueAudio()` avant de jouer un nouvel audio
+- Arrête tous les autres sons en cours, garantit un seul audio actif par page
+- Inclus récupération d'instance et reset visuel/icône
+
+### 6. Gestion des erreurs et reset
 **Fonction :** `resetAudioButton(button)`
 
 - Reset icône, classe, dataset
