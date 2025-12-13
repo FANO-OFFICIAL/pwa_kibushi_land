@@ -5,13 +5,18 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Apprendre le Kibushi - Accueil</title>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPWQW99TK0"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WPWQW99TK0"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-WPWQW99TK0');
+      gtag("config", "G-WPWQW99TK0");
     </script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
@@ -34,25 +39,6 @@
     <meta name="theme-color" content="#2b6cee" />
   </head>
   <body class="font-display dark bg-background-dark">
-    <!-- Splash Screen -->
-    <div
-      id="splash-screen"
-      class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-white dark:bg-[#111318] transition-opacity duration-700 ease-in-out"
-    >
-      <div class="flex flex-col items-center gap-6">
-        <img
-          src="images/icons/icon-512x512.png"
-          alt="Kibushi Land Logo"
-          class="w-32 h-32 rounded-full shadow-2xl animate-bounce-subtle"
-        />
-        <h1
-          class="text-3xl font-bold text-[#111318] dark:text-white tracking-tighter"
-        >
-          Kibushi Land
-        </h1>
-      </div>
-    </div>
-
     <div class="relative flex h-screen w-full flex-col group/design-root">
       <app-header></app-header>
       <main id="app" class="flex-1 overflow-y-auto">

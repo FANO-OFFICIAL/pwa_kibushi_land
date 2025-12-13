@@ -1,7 +1,7 @@
 {
-    "titre": "En ville",
-    "phrases": [
-        {
+  "titre": "En ville",
+  "phrases": [
+    {
       "kibushi": "eelyah oon galree dar oñ veel",
       "francais": "Il y a une galerie d'art en ville?",
       "anglais": "Is there an art gallery in town?",
@@ -51,13 +51,13 @@
       },
       "illustration": "assets/images/illustration_default_9_16.jpg"
     }
-],
+  ],
   "dialogues": [
     {
       "titre": "Présentation",
       "audio": {
-        "francais": "assets/audio/dialogue_presentation_fr.mp3",
-        "anglais": "assets/audio/dialogue_presentation_en.mp3"
+        "francais": "assets/audio/dialogue_01_fr.mp3",
+        "anglais": "assets/audio/dialogue_01_en.mp3"
       },
       "conversation": [
         {
@@ -83,8 +83,8 @@
     {
       "titre": "Se saluer et se présenter",
       "audio": {
-        "francais": "assets/audio/dialogue_salutations_fr.mp3",
-        "anglais": "assets/audio/dialogue_salutations_en.mp3"
+        "francais": "assets/audio/dialogue_02_fr.mp3",
+        "anglais": "assets/audio/dialogue_02_en.mp3"
       },
       "conversation": [
         {
@@ -116,8 +116,8 @@
     {
       "titre": "Au revoir",
       "audio": {
-        "francais": "assets/audio/dialogue_au_revoir_fr.mp3",
-        "anglais": "assets/audio/dialogue_au_revoir_en.mp3"
+        "francais": "assets/audio/dialogue_01_fr.mp3",
+        "anglais": "assets/audio/dialogue_01_en.mp3"
       },
       "conversation": [
         {

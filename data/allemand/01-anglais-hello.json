@@ -106,8 +106,8 @@
     {
       "titre": "Présentation",
       "audio": {
-        "francais": "assets/audio/dialogue_presentation_fr.mp3",
-        "anglais": "assets/audio/dialogue_presentation_en.mp3"
+        "francais": "assets/audio/dialogue_01_fr.mp3",
+        "anglais": "assets/audio/dialogue_01_en.mp3"
       },
       "conversation": [
         {
@@ -133,8 +133,8 @@
     {
       "titre": "Se saluer et se présenter",
       "audio": {
-        "francais": "assets/audio/dialogue_salutations_fr.mp3",
-        "anglais": "assets/audio/dialogue_salutations_en.mp3"
+        "francais": "assets/audio/dialogue_02_fr.mp3",
+        "anglais": "assets/audio/dialogue_02_en.mp3"
       },
       "conversation": [
         {
@@ -166,8 +166,8 @@
     {
       "titre": "Au revoir",
       "audio": {
-        "francais": "assets/audio/dialogue_au_revoir_fr.mp3",
-        "anglais": "assets/audio/dialogue_au_revoir_en.mp3"
+        "francais": "assets/audio/dialogue_01_fr.mp3",
+        "anglais": "assets/audio/dialogue_01_en.mp3"
       },
       "conversation": [
         {

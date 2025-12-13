@@ -4,8 +4,8 @@
   "scope": "/pwa_kibushi_land/",
   "start_url": "/pwa_kibushi_land/",
   "display": "standalone",
-  "background_color": "#f5f5f5",
-  "theme_color": "#3367D6",
+  "background_color": "#111318",
+  "theme_color": "#2b6cee",
   "description": "Une application pour apprendre la langue Kibushi.",
   "icons": [
     {

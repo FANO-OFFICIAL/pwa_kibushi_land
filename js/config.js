@@ -10,6 +10,10 @@ export const LANGUAGES = {
   italien: { name: "Italien", flag: "fi fi-it" },
   japonais: { name: "Japonais", flag: "fi fi-jp" },
   portugais_bresil: { name: "Portugais (Brésil)", flag: "fi fi-br" },
+  lingala: { name: "Lingala", flag: "fi fi-cd" },
+  wolof: { name: "Wolof", flag: "fi fi-sn" },
+  swahili: { name: "Swahili", flag: "fi fi-cd" },
+  mandarin: { name: "Mandarin", flag: "fi fi-cn" },
 };
 
 export const THEMES = [

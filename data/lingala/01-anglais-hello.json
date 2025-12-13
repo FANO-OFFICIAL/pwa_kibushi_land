@@ -1,0 +1,60 @@
+{
+  "titre": "Bonjour",
+  "phrases": [
+    {
+      "francais": "Salut!",
+      "anglais": "Hi!",
+      "lingala": "Ndenge?",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bonjour.",
+      "anglais": "Good morning",
+      "lingala": "Bolingo mpuka",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Présentation",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "conversation": [
+        {
+          "personnage": "Jean",
+          "francais": "Bonjour. Je m'appelle Jean.",
+          "anglais": "Hello. My name is Jean.",
+          "lingala": "Bolingo mpuka. Nazwi Jean."
+        },
+        {
+          "personnage": "Marie",
+          "francais": "Bonjour Jean.",
+          "anglais": "Hello Jean.",
+          "lingala": "Bolingo mpuka Jean."
+        }
+      ]
+    }
+  ],
+  "vocabulaire": [
+    {
+      "lingala": "bolingo",
+      "francais": "bonjour",
+      "anglais": "hello",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

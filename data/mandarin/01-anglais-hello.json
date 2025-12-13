@@ -1,0 +1,60 @@
+{
+  "titre": "Bonjour",
+  "phrases": [
+    {
+      "francais": "Salut!",
+      "anglais": "Hi!",
+      "mandarin": "Nǐ hǎo!",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    },
+    {
+      "francais": "Bonjour.",
+      "anglais": "Good morning",
+      "mandarin": "Zǎoshang hǎo",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Présentation",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "conversation": [
+        {
+          "personnage": "Jean",
+          "francais": "Bonjour. Je m'appelle Jean.",
+          "anglais": "Hello. My name is Jean.",
+          "mandarin": "Nǐ hǎo. Wǒ jiào Jean."
+        },
+        {
+          "personnage": "Marie",
+          "francais": "Bonjour Jean.",
+          "anglais": "Hello Jean.",
+          "mandarin": "Nǐ hǎo Jean."
+        }
+      ]
+    }
+  ],
+  "vocabulaire": [
+    {
+      "mandarin": "nǐ hǎo",
+      "francais": "bonjour",
+      "anglais": "hello",
+      "audio": {
+        "francais": "",
+        "anglais": ""
+      },
+      "illustration": "assets/images/illustration_default_9_16.jpg"
+    }
+  ]
+}

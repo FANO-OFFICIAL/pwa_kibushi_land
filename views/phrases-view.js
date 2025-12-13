@@ -1,24 +1,6 @@
 import { LANGUAGES } from "../js/config.js";
-
-// --- Helper Functions (Logic from phrases-loader.js) ---
-
-function getMasteredPhrases(lang) {
-  const stored = localStorage.getItem(`masteredPhrases_${lang}_salutations`);
-  return stored ? JSON.parse(stored) : {};
-}
-
-function saveMasteredPhrase(phraseText, isMastered, lang) {
-  const masteredPhrases = getMasteredPhrases(lang);
-  if (isMastered) {
-    masteredPhrases[phraseText] = true;
-  } else {
-    delete masteredPhrases[phraseText];
-  }
-  localStorage.setItem(
-    `masteredPhrases_${lang}_salutations`,
-    JSON.stringify(masteredPhrases)
-  );
-}
+import { playAudioFile } from "../js/utils/audio.js";
+import { getMasteredPhrases, saveMasteredPhrase } from "../js/utils/storage.js";
 
 // Make these global so onclick attributes work
 window.toggleMastered = function (button) {
@@ -33,18 +15,21 @@ window.toggleMastered = function (button) {
   const hashParams = new URLSearchParams(window.location.hash.split("?")[1]);
   const currentLang = hashParams.get("lang") || "sakalava";
 
+  const currentTheme =
+    hashParams.get("theme") || "01-salutations_presentations";
+
   if (isMastered) {
     button.dataset.mastered = "false";
     button.classList.remove("text-green-500");
     button.classList.add("text-gray-400", "dark:text-gray-500");
     button.querySelector(".material-symbols-outlined").classList.remove("fill");
-    saveMasteredPhrase(phraseTextContent, false, currentLang);
+    saveMasteredPhrase(phraseTextContent, false, currentLang, currentTheme);
   } else {
     button.dataset.mastered = "true";
     button.classList.remove("text-gray-400", "dark:text-gray-500");
     button.classList.add("text-green-500");
     button.querySelector(".material-symbols-outlined").classList.add("fill");
-    saveMasteredPhrase(phraseTextContent, true, currentLang);
+    saveMasteredPhrase(phraseTextContent, true, currentLang, currentTheme);
   }
 };
 
@@ -93,44 +78,6 @@ window.playAudioForCurrentLanguage = function (button) {
     console.log(`Aucun audio configuré pour la langue : ${currentLang}`);
   }
 };
-
-function playAudioFile(audioPath, button) {
-  const audio = new Audio(audioPath);
-  const icon = button.querySelector(".material-symbols-outlined");
-
-  icon.classList.add("fill");
-  button.classList.add("animate-pulse");
-  button.classList.remove(
-    "bg-gray-100",
-    "text-gray-600",
-    "dark:bg-gray-700",
-    "dark:text-gray-400"
-  );
-  button.classList.add("bg-primary/10", "text-primary");
-
-  audio.play().catch((error) => {
-    console.error("Erreur lors de la lecture audio:", error);
-    icon.classList.remove("fill");
-    button.classList.remove("animate-pulse", "bg-primary/10", "text-primary");
-    button.classList.add(
-      "bg-gray-100",
-      "text-gray-600",
-      "dark:bg-gray-700",
-      "dark:text-gray-400"
-    );
-  });
-
-  audio.addEventListener("ended", () => {
-    icon.classList.remove("fill");
-    button.classList.remove("animate-pulse", "bg-primary/10", "text-primary");
-    button.classList.add(
-      "bg-gray-100",
-      "text-gray-600",
-      "dark:bg-gray-700",
-      "dark:text-gray-400"
-    );
-  });
-}
 
 function createPhraseBlock(phrase, index, masteredPhrases, currentLang) {
   const nativeText = phrase[currentLang] || phrase.sakalava || "";
@@ -238,7 +185,7 @@ export default {
       const data = await response.json();
 
       container.innerHTML = "";
-      const masteredPhrases = getMasteredPhrases(currentLang);
+      const masteredPhrases = getMasteredPhrases(currentLang, currentTheme);
 
       const html = data.phrases
         .map((phrase, index) =>

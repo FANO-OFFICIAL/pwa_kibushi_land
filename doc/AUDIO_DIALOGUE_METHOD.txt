@@ -1,0 +1,80 @@
+# Méthode pour gérer l'audio dans la page dialogues
+
+## Problème initial
+- Audio s'arrêtait et recommençait, sans possibilité de pause/reprise
+- Audio continuait même lors de changement de langue
+- Pas de section audio visible pour les langues sans audio direct
+
+## Solution implémentée
+
+### 1. Persister l'instance audio
+**Fichier :** `views/dialogues-view.js`
+**Fonction :** `playAudioFile(audioPath, button)`
+
+- Au lieu de créer un nouvel Audio à chaque clic, réutilise la même instance
+- Sauvegarde l'instance dans `button.audioInstance`
+- Permet de garder la position et l'état (pause/play)
+
+### 2. Bouton toggle play/pause
+**Fonction :** `playAudioFile(audioPath, button)`
+
+```javascript
+if (audio.paused) {
+  // Play avec icône pause
+  audio.play().then(() => {
+    icon.textContent = "pause";
+    // Effets visuels
+  });
+} else {
+  // Pause avec icône play
+  audio.pause();
+  icon.textContent = "play_arrow";
+}
+```
+
+- Premier clic : play (icone pause)
+- Second clic : pause (icone play)
+- Re-clic : reprise à la position précédente
+
+### 3. Affichage conditionnel de la section audio
+**Fonction :** `updateAudioSection(card, dialogue, selectedLang)`
+
+- Si audio français ET/OU anglais existe → afficher bouton
+- Sinon → "Audio non disponible"
+- Pour native : s'affiche si audio existant, joue fallback français
+
+### 4. Arrêt automatique lors de changement de langue
+**Fonction :** `initDialogueLanguageSelectors()`
+
+```javascript
+// Arrêter l'audio en cours si une instance existe
+const audioButton = dialogueCard.querySelector(".audio-section button");
+if (audioButton && audioButton.audioInstance) {
+  audioButton.audioInstance.pause();
+  resetAudioButton(audioButton);
+}
+```
+
+### 5. Gestion des erreurs et reset
+**Fonction :** `resetAudioButton(button)`
+
+- Reset icône, classe, dataset
+- Stoppe l'audio
+- Appelée automatiquement à la fin ou erreur
+
+## Fichiers modifiés
+- `views/dialogues-view.js` : Refonte complète des fonctions audio
+
+## Avantages
+- ✅ Lecture/pause/transaction contrôlée
+- ✅ Pas de chevauchement lors des changes
+- ✅ Position sauvegardée lors de pause
+- ✅ UX moderne avec icônes dynamiques
+- ✅ Gestion d'erreurs robuste
+
+## Ordre d'exécution (debug)
+1. Après-render → `initDialogueLanguageSelectors()` attache listeners
+2. Clic radio langue → arrêt auto si audio en cours
+3. `updateAudioSection()` → crée/affiche bouton si audio dispo
+4. Clic audio → `playDialogueAudio()` → `playAudioFile()` toggle
+5. Fin audio → `resetAudioButton()` appelée automatiquement

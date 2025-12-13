@@ -18,8 +18,11 @@ if ("serviceWorker" in navigator) {
             if (newWorker.state === "installed") {
               // Vérifie s'il y a un SW actif
               if (navigator.serviceWorker.controller) {
-                // Émet un événement pour que la vue actuelle puisse l'afficher
-                console.log("Nouveau contenu disponible, émission de l'événement 'updateAvailable'.");
+                // Stocke le flag et émet un événement pour notification persistante
+                localStorage.setItem("updatePending", "true");
+                console.log(
+                  "Nouveau contenu disponible, émission de l'événement 'updateAvailable'."
+                );
                 const event = new CustomEvent("updateAvailable", {
                   detail: { newWorker },
                 });
@@ -37,7 +40,7 @@ if ("serviceWorker" in navigator) {
   // Le nouveau SW a pris le contrôle, on recharge la page
   navigator.serviceWorker.addEventListener("controllerchange", () => {
     console.log("Nouveau Service Worker activé, rechargement de la page.");
+    localStorage.removeItem("updatePending");
     window.location.reload();
   });
 }
-

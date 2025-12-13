@@ -62,8 +62,8 @@ function updateAudioSection(card, dialogue, selectedLang) {
             <p class="text-base font-bold leading-tight truncate text-gray-900 dark:text-white">Dialogue Audio</p>
             <p class="text-xs font-normal leading-normal truncate text-gray-500 dark:text-gray-400">Appuyez pour jouer</p>
           </div>
-          <button class="flex items-center justify-center rounded-full size-10 bg-primary text-white hover:bg-primary/90 transition-colors" onclick="playDialogueAudio(this, ${dialogueIndex})">
-            <span class="material-symbols-outlined text-2xl fill">play_arrow</span>
+          <button class="flex items-center justify-center rounded-full size-10 bg-primary text-white hover:bg-primary/90 transition-colors" onclick="playDialogueAudio(this, ${dialogueIndex})" data-audio="${audioPath}" data-audio-playing="false">
+            <span class="material-symbols-outlined text-2xl">play_arrow</span>
           </button>
         </div>
       </div>
@@ -84,6 +84,14 @@ window.initDialogueLanguageSelectors = function () {
       radio.addEventListener("change", (e) => {
         const dialogueCard = e.target.closest(".dialogue-card");
         const selectedLang = e.target.value;
+
+        // Arrêter l'audio en cours si une instance existe
+        const audioButton = dialogueCard.querySelector(".audio-section button");
+        if (audioButton && audioButton.audioInstance) {
+          audioButton.audioInstance.pause();
+          resetAudioButton(audioButton);
+        }
+
         const content = dialogueCard.querySelector(".dialogue-content");
 
         const dialogueIndex = Array.from(
@@ -129,22 +137,43 @@ window.initMasteredButtonsDialogue = function () {
 };
 
 function playAudioFile(audioPath, button) {
-  const audio = new Audio(audioPath);
+  // If no audio instance, create one
+  if (!button.audioInstance) {
+    const audio = new Audio(audioPath);
+    button.audioInstance = audio;
+
+    audio.addEventListener("ended", () => resetAudioButton(button));
+    audio.addEventListener("error", () => {
+      console.error("Erreur lors de la lecture audio:", error);
+      resetAudioButton(button);
+    });
+  }
+
   const icon = button.querySelector(".material-symbols-outlined");
+  const audio = button.audioInstance;
 
-  // Store audio instance and set playing state
-  button.audioInstance = audio;
-  button.dataset.audioPlaying = "true";
-
-  icon.classList.add("fill");
-  button.classList.add("animate-pulse");
-
-  audio.play().catch((error) => {
-    console.error("Erreur lors de la lecture audio:", error);
-    resetAudioButton(button);
-  });
-
-  audio.addEventListener("ended", () => resetAudioButton(button));
+  if (audio.paused) {
+    // Play
+    audio
+      .play()
+      .then(() => {
+        button.dataset.audioPlaying = "true";
+        icon.classList.add("fill");
+        button.classList.add("animate-pulse");
+        icon.textContent = "pause"; // Icon pause
+      })
+      .catch((error) => {
+        console.error("Erreur lors de la lecture audio:", error);
+        resetAudioButton(button);
+      });
+  } else {
+    // Pause
+    audio.pause();
+    button.dataset.audioPlaying = "false";
+    icon.classList.remove("fill");
+    button.classList.remove("animate-pulse");
+    icon.textContent = "play_arrow"; // Icon play
+  }
 }
 
 function resetAudioButton(button) {
@@ -168,22 +197,16 @@ window.playDialogueAudio = function (button, idx) {
   const currentLang = card.dataset.currentLang;
 
   let audioUrl = "";
-  if (currentLang === "francais") audioUrl = card.dataset.audioFrancais;
-  else if (currentLang === "anglais") audioUrl = card.dataset.audioAnglais;
-  else if (currentLang === "native") audioUrl = ""; // No audio for native
+  if (currentLang === "native") {
+    // For native, play francais if available, else anglais
+    audioUrl = card.dataset.audioFrancais || card.dataset.audioAnglais;
+  } else if (currentLang === "francais") {
+    audioUrl = card.dataset.audioFrancais || card.dataset.audioAnglais; // fallback to en if no fr
+  } else if (currentLang === "anglais") {
+    audioUrl = card.dataset.audioAnglais || card.dataset.audioFrancais; // fallback to fr if no en
+  }
 
   if (audioUrl) {
-    // If already playing, pause
-    if (button.dataset.audioPlaying === "true" && button.audioInstance) {
-      button.audioInstance.pause();
-      resetAudioButton(button);
-      return;
-    }
-
-    // Icon to pause icon? Or keep play_arrow filled
-    const icon = button.querySelector(".material-symbols-outlined");
-    icon.textContent = "play_arrow"; // Keep filled
-
     playAudioFile(audioUrl, button);
   }
 };
@@ -258,9 +281,7 @@ export default {
           return `
             <div class="flex flex-col items-stretch justify-start rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 dialogue-card" data-audio-francais="${
               item.audio?.francais || ""
-            }" data-audio-anglais="${
-            item.audio?.anglais || ""
-          } data-audio-native="">
+            }" data-audio-anglais="${item.audio?.anglais || ""}">
               <div class="flex w-full flex-col items-stretch justify-center gap-4 p-4">
                 <div class="flex items-start justify-between gap-4">
                   <p class="text-xl font-bold leading-tight text-gray-900 dark:text-white">${title}</p>

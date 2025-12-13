@@ -1,20 +1,6 @@
 import { LANGUAGES } from "../js/config.js";
-
-// --- Helper Functions ---
-
-function getMasteredVocab(lang, theme) {
-  const stored = localStorage.getItem(`masteredVocab_${lang}_${theme}`);
-  return stored ? JSON.parse(stored) : {};
-}
-
-function saveMasteredVocab(idx, isMastered, lang, theme) {
-  const mastered = getMasteredVocab(lang, theme);
-  mastered[idx] = isMastered;
-  localStorage.setItem(
-    `masteredVocab_${lang}_${theme}`,
-    JSON.stringify(mastered)
-  );
-}
+import { playAudioFile } from "../js/utils/audio.js";
+import { getMasteredVocab, saveMasteredVocab } from "../js/utils/storage.js";
 
 window.isMasteredVocab = function (idx) {
   const hashParams = new URLSearchParams(window.location.hash.split("?")[1]);
@@ -42,6 +28,8 @@ window.toggleMasteredVocab = function (button) {
   // Like toggleMastered in phrases
   const hashParams = new URLSearchParams(window.location.hash.split("?")[1]);
   const currentLang = hashParams.get("lang") || "sakalava";
+  const currentTheme =
+    hashParams.get("theme") || "01-salutations_presentations";
 
   const currentMastered = window.isMasteredVocab(idx);
 
@@ -99,35 +87,11 @@ window.playVocabAudio = function (button) {
   }
 
   if (audioUrl) {
-    playAudioFileVocab(audioUrl, button);
+    playAudioFile(audioUrl, button);
   } else {
     console.log(`Aucun audio disponible pour la langue : ${currentLang}`);
   }
 };
-
-function playAudioFileVocab(audioPath, button) {
-  const audio = new Audio(audioPath);
-
-  const icon = button.querySelector(".material-symbols-outlined");
-  icon.classList.add("fill");
-  button.classList.add("animate-pulse");
-  button.classList.remove("text-gray-400", "dark:text-gray-300");
-  button.classList.add("bg-primary/10", "text-primary");
-
-  audio.play().catch((error) => {
-    console.error("Erreur lors de la lecture audio:", error);
-    resetAudioButtonVocab(button);
-  });
-
-  audio.addEventListener("ended", () => resetAudioButtonVocab(button));
-}
-
-function resetAudioButtonVocab(button) {
-  const icon = button.querySelector(".material-symbols-outlined");
-  icon.classList.remove("fill");
-  button.classList.remove("animate-pulse", "bg-primary/10", "text-primary");
-  button.classList.add("text-gray-400", "dark:text-gray-300");
-}
 
 // --- View Component ---
 

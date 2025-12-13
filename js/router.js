@@ -65,6 +65,120 @@ export default class Router {
     return Object.fromEntries(urlSearchParams.entries());
   }
 
+  updateHeader(fragment, params) {
+    const appHeader = document.querySelector("app-header");
+    if (appHeader) {
+      // Reset header attributes to default
+      appHeader.setAttribute("data-title", "Kibushi Land");
+      appHeader.removeAttribute("data-show-back-button");
+      appHeader.removeAttribute("data-back-link");
+      appHeader.removeAttribute("data-lang-flag");
+
+      // Add back button for all pages except home
+      if (fragment !== "/") {
+        appHeader.setAttribute("data-show-back-button", "true");
+        appHeader.setAttribute("data-back-link", "javascript:history.back()");
+      }
+
+      let currentLang = params.lang || "sakalava";
+      const route =
+        this.routes[fragment] || this.routes["404"] || this.routes["/"];
+      if (route.title) {
+        appHeader.setAttribute("data-title", route.title);
+      }
+
+      switch (fragment) {
+        case "/themes":
+          if (LANGUAGES[currentLang]) {
+            appHeader.setAttribute("data-title", LANGUAGES[currentLang].name);
+            appHeader.setAttribute("data-show-back-button", "true");
+            appHeader.setAttribute("data-back-link", "#/");
+          }
+          break;
+        case "/category":
+        case "/phrases":
+        case "/vocabulaire":
+        case "/dialogues":
+          if (LANGUAGES[currentLang]) {
+            appHeader.setAttribute(
+              "data-lang-flag",
+              LANGUAGES[currentLang].flag
+            );
+          }
+          const currentTheme = params.theme;
+          if (currentTheme) {
+            const themeConfig = THEMES.find((t) => t.id === currentTheme);
+            if (themeConfig) {
+              let themeTitle = themeConfig.title;
+              (async () => {
+                try {
+                  const response = await fetch(
+                    `data/${currentLang}/${currentTheme}.json`
+                  );
+                  if (response.ok) {
+                    const data = await response.json();
+                    if (data.titre) {
+                      themeTitle = data.titre;
+                    }
+                  }
+                } catch (e) {
+                  console.warn("Could not load dynamic theme title", e);
+                }
+                appHeader.setAttribute("data-title", themeTitle);
+              })();
+            }
+            appHeader.setAttribute("data-show-back-button", "true");
+            appHeader.setAttribute(
+              "data-back-link",
+              `#/themes?lang=${currentLang}`
+            );
+            if (fragment === "/category") {
+              appHeader.setAttribute(
+                "data-back-link",
+                `#/themes?lang=${currentLang}`
+              );
+            } else {
+              appHeader.setAttribute(
+                "data-back-link",
+                `#/category?lang=${currentLang}&theme=${currentTheme}`
+              );
+            }
+          }
+          break;
+      }
+    }
+  }
+
+  updateFooter(fragment, params) {
+    const footer = document.querySelector("app-footer");
+    const body = document.body;
+
+    if (footer) {
+      let activePage = "accueil";
+      if (
+        fragment.startsWith("/phrases") ||
+        fragment.startsWith("/vocabulaire") ||
+        fragment.startsWith("/dialogues")
+      ) {
+        activePage = "favoris";
+      } else if (
+        fragment.startsWith("/themes") ||
+        fragment.startsWith("/category")
+      ) {
+        activePage = "themes";
+      } else if (fragment === "/") {
+        activePage = "accueil";
+      } else if (fragment.startsWith("/favoris")) {
+        activePage = "favoris";
+      } else if (fragment.startsWith("/parametres")) {
+        activePage = "parametres";
+      }
+
+      footer.setAttribute("data-active-page", activePage);
+      body.classList.remove("hidden"); // Assuming footer is always shown now
+    }
+  }
+
   async loadRoute() {
     const fragment = this.getFragment();
     const params = this.getParams();
@@ -83,120 +197,9 @@ export default class Router {
     const route =
       this.routes[fragment] || this.routes["404"] || this.routes["/"];
 
-    const appHeader = document.querySelector("app-header");
-    if (appHeader) {
-      // Reset header attributes to default
-      appHeader.setAttribute("data-title", route.title || "Kibushi Land");
-      appHeader.removeAttribute("data-show-back-button");
-      appHeader.removeAttribute("data-back-link");
-      appHeader.removeAttribute("data-lang-flag");
-
-      // Add back button for all pages except home
-      if (fragment !== "/") {
-        appHeader.setAttribute("data-show-back-button", "true");
-        appHeader.setAttribute("data-back-link", "javascript:history.back()");
-      }
-    }
-
-    // Determine active page for footer
-    let activePage = "accueil";
-    if (
-      fragment.startsWith("/phrases") ||
-      fragment.startsWith("/vocabulaire") ||
-      fragment.startsWith("/dialogues")
-    ) {
-      activePage = "favoris";
-    } else if (
-      fragment.startsWith("/themes") ||
-      fragment.startsWith("/category")
-    ) {
-      activePage = "themes";
-    } else if (fragment === "/") {
-      activePage = "accueil";
-    } else if (fragment.startsWith("/favoris")) {
-      activePage = "favoris";
-    } else if (fragment.startsWith("/parametres")) {
-      activePage = "parametres";
-    }
-
-    // Update footer active page and visibility
-    const footer = document.querySelector("app-footer");
-    const body = document.body; // Get body element
-
-    if (footer) {
-      footer.setAttribute("data-active-page", activePage);
-      footer.classList.remove("hidden"); // Show footer on all pages
-    }
-
-    // Dynamic Header Logic
-    if (appHeader) {
-      let currentLang = params.lang || "sakalava";
-      let currentTheme = params.theme;
-      let langInfo = LANGUAGES[currentLang];
-      let themeTitle = "";
-
-      if (route.title) {
-        appHeader.setAttribute("data-title", route.title);
-      }
-
-      switch (fragment) {
-        case "/themes":
-          if (langInfo) {
-            appHeader.setAttribute("data-title", langInfo.name);
-            appHeader.setAttribute("data-show-back-button", "true");
-            appHeader.setAttribute("data-back-link", "#/");
-          }
-          break;
-        case "/category":
-        case "/phrases":
-        case "/vocabulaire":
-        case "/dialogues":
-          if (langInfo) {
-            appHeader.setAttribute("data-lang-flag", langInfo.flag);
-          }
-          if (currentTheme) {
-            const themeConfig = THEMES.find((t) => t.id === currentTheme);
-            if (themeConfig) {
-              themeTitle = themeConfig.title;
-              try {
-                const response = await fetch(
-                  `data/${currentLang}/${currentTheme}.json`
-                );
-                if (response.ok) {
-                  const data = await response.json();
-                  if (data.titre) {
-                    themeTitle = data.titre;
-                  }
-                }
-              } catch (e) {
-                console.warn("Could not load dynamic theme title", e);
-              }
-            }
-            appHeader.setAttribute("data-title", themeTitle);
-          }
-          appHeader.setAttribute("data-show-back-button", "true");
-          appHeader.setAttribute(
-            "data-back-link",
-            `#/themes?lang=${currentLang}`
-          );
-          if (fragment === "/category") {
-            appHeader.setAttribute(
-              "data-back-link",
-              `#/themes?lang=${currentLang}`
-            );
-          } else if (
-            fragment === "/phrases" ||
-            fragment === "/vocabulaire" ||
-            fragment === "/dialogues"
-          ) {
-            appHeader.setAttribute(
-              "data-back-link",
-              `#/category?lang=${currentLang}&theme=${currentTheme}`
-            );
-          }
-          break;
-      }
-    }
+    // Update header and footer
+    this.updateHeader(fragment, params);
+    this.updateFooter(fragment, params);
 
     if (route) {
       const updateDOM = async () => {
@@ -219,9 +222,9 @@ export default class Router {
 
         // Send page_view to Google Analytics
         if (window.gtag) {
-          window.gtag('event', 'page_view', {
+          window.gtag("event", "page_view", {
             page_path: fragment,
-            page_title: route.title || 'Kibushi Land', // Use route title if available
+            page_title: route.title || "Kibushi Land", // Use route title if available
           });
         }
 

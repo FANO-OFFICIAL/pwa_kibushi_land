@@ -23,16 +23,3 @@ const routes = {
 
 // Initialize Router
 window.router = new Router(routes);
-
-// Splash Screen Logic
-window.addEventListener("load", () => {
-  const splash = document.getElementById("splash-screen");
-  setTimeout(() => {
-    if (splash) {
-      splash.style.opacity = "0";
-      setTimeout(() => {
-        splash.remove();
-      }, 700); // Wait for transition duration
-    }
-  }, 2000); // Minimal show time for branding impact
-});
