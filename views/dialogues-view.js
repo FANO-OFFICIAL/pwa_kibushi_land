@@ -229,7 +229,7 @@ let currentData = null;
 // --- View Component ---
 
 export default {
-  title: "Dialogues", // Titre statique, le titre du thème sera géré par le router
+  title: "", // Titre dynamique géré par le router
   render: async (params) => {
     const currentLang = params.lang || "sakalava";
     const currentTheme = params.theme || "01-salutations_presentations";

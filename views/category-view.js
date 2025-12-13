@@ -1,7 +1,7 @@
 import { LANGUAGES, THEMES } from "../js/config.js";
 
 export default {
-  title: "Catégorie", // Titre statique temporaire, sera géré dynamiquement par le routeur
+  title: "", // Titre dynamique géré par le router
   render: async (params) => {
     const currentLang = params.lang || "sakalava";
     const currentThemeId = params.theme;

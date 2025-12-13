@@ -96,7 +96,7 @@ window.playVocabAudio = function (button) {
 // --- View Component ---
 
 export default {
-  title: "Vocabulaire", // Titre statique, le titre du thème sera géré par le router
+  title: "", // Titre dynamique géré par le router
   render: async (params) => {
     const currentLang = params.lang || "sakalava";
     const currentTheme = params.theme || "01-salutations_presentations";
@@ -182,7 +182,7 @@ export default {
                 </div>
               </div>
               <div class="flex flex-col items-center justify-between gap-2">
-                <button class="mastered-btn flex size-9 cursor-pointer items-center justify-center rounded-full ${checkClass}" data-idx="${idx}" aria-pressed="${masteredValue}">
+                <button class="mastered-btn flex size-9 cursor-pointer items-center justify-center rounded-full ${checkClass}" data-idx="${idx}" aria-pressed="${masteredValue}" onclick="toggleMasteredVocab(this)">
                   <span class="material-symbols-outlined ${fillClass}">check_circle</span>
                 </button>
                 <button onclick="playVocabAudio(this)" class="flex size-9 cursor-pointer items-center justify-center rounded-full text-gray-400 dark:text-gray-300 hover:bg-primary/10">

@@ -69,7 +69,7 @@ export default class Router {
     const appHeader = document.querySelector("app-header");
     if (appHeader) {
       // Reset header attributes to default
-      appHeader.setAttribute("data-title", "Kibushi Land");
+      appHeader.setAttribute("data-title", "");
       appHeader.removeAttribute("data-show-back-button");
       appHeader.removeAttribute("data-back-link");
       appHeader.removeAttribute("data-lang-flag");
@@ -107,25 +107,15 @@ export default class Router {
           }
           const currentTheme = params.theme;
           if (currentTheme) {
-            const themeConfig = THEMES.find((t) => t.id === currentTheme);
-            if (themeConfig) {
-              let themeTitle = themeConfig.title;
-              (async () => {
-                try {
-                  const response = await fetch(
-                    `data/${currentLang}/${currentTheme}.json`
-                  );
-                  if (response.ok) {
-                    const data = await response.json();
-                    if (data.titre) {
-                      themeTitle = data.titre;
-                    }
-                  }
-                } catch (e) {
-                  console.warn("Could not load dynamic theme title", e);
-                }
-                appHeader.setAttribute("data-title", themeTitle);
-              })();
+            // Set title based on route
+            if (fragment === "/category") {
+              appHeader.setAttribute("data-title", "Catégories");
+            } else if (fragment === "/phrases") {
+              appHeader.setAttribute("data-title", "Phrases");
+            } else if (fragment === "/vocabulaire") {
+              appHeader.setAttribute("data-title", "Vocabulaire");
+            } else if (fragment === "/dialogues") {
+              appHeader.setAttribute("data-title", "Dialogues");
             }
             appHeader.setAttribute("data-show-back-button", "true");
             appHeader.setAttribute(
